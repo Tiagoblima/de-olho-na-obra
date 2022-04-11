@@ -11,19 +11,10 @@ class AppStyle {
   );
 
   static TextStyle textStylePoppinssemibold18 =
-      textStylePoppinssemibold14.copyWith(
+      textStylePoppinssemibold12.copyWith(
     fontSize: getFontSize(
       18,
     ),
-  );
-
-  static TextStyle textStyleRobotomedium15 = TextStyle(
-    color: ColorConstant.gray800,
-    fontSize: getFontSize(
-      15,
-    ),
-    fontFamily: 'Roboto',
-    fontWeight: FontWeight.w500,
   );
 
   static TextStyle textStylePoppinsregular101 =
@@ -31,73 +22,15 @@ class AppStyle {
     color: ColorConstant.gray90099,
   );
 
-  static TextStyle textStylePoppinssemibold14 = TextStyle(
-    color: ColorConstant.gray900,
+  static TextStyle textStylePoppinssemibold14 =
+      textStylePoppinssemibold12.copyWith(
     fontSize: getFontSize(
       14,
     ),
-    fontFamily: 'Poppins',
-    fontWeight: FontWeight.w600,
   );
 
-  static TextStyle textStyleMontserratlight10 = TextStyle(
-    color: ColorConstant.gray901,
-    fontSize: getFontSize(
-      10,
-    ),
-    fontFamily: 'Montserrat',
-    fontWeight: FontWeight.w300,
-  );
-
-  static TextStyle textStylePoppinsmedium14 = TextStyle(
-    color: ColorConstant.blue800,
-    fontSize: getFontSize(
-      14,
-    ),
-    fontFamily: 'Poppins',
-    fontWeight: FontWeight.w500,
-  );
-
-  static TextStyle textStyleRobotobold16 = textStyleRobotobold162.copyWith(
+  static TextStyle textStyleRobotobold16 = TextStyle(
     color: ColorConstant.redA700,
-  );
-
-  static TextStyle textStyleRobotoregular15 = textStyleRobotoregular20.copyWith(
-    fontSize: getFontSize(
-      15,
-    ),
-  );
-
-  static TextStyle textStyleRobotoregular13 = textStyleRobotoregular20.copyWith(
-    fontSize: getFontSize(
-      13,
-    ),
-  );
-
-  static TextStyle textStylePoppinsblack10 = TextStyle(
-    color: ColorConstant.bluegray800,
-    fontSize: getFontSize(
-      10,
-    ),
-    fontFamily: 'Poppins',
-    fontWeight: FontWeight.w900,
-  );
-
-  static TextStyle textStyleRobotobold161 = textStyleRobotobold162.copyWith(
-    color: ColorConstant.green900,
-  );
-
-  static TextStyle textStyleIBMPlexSerifsemibold32 = TextStyle(
-    color: ColorConstant.black900,
-    fontSize: getFontSize(
-      32,
-    ),
-    fontFamily: 'IBM Plex Serif',
-    fontWeight: FontWeight.w600,
-  );
-
-  static TextStyle textStyleRobotobold162 = TextStyle(
-    color: ColorConstant.green901,
     fontSize: getFontSize(
       16,
     ),
@@ -105,10 +38,14 @@ class AppStyle {
     fontWeight: FontWeight.w700,
   );
 
-  static TextStyle textStyleNunitoSansregular12 =
-      textStyleNunitoSansregular10.copyWith(
+  static TextStyle textStylePoppinsmedium101 =
+      textStylePoppinsmedium10.copyWith(
+    color: ColorConstant.black900,
+  );
+
+  static TextStyle textStyleRobotoregular13 = textStyleRobotoregular20.copyWith(
     fontSize: getFontSize(
-      12,
+      13,
     ),
   );
 
@@ -118,6 +55,15 @@ class AppStyle {
       15,
     ),
     fontFamily: 'IBM Plex Serif',
+    fontWeight: FontWeight.w600,
+  );
+
+  static TextStyle textStyleRobotoromansemibold15 = TextStyle(
+    color: ColorConstant.black900,
+    fontSize: getFontSize(
+      15,
+    ),
+    fontFamily: 'Roboto',
     fontWeight: FontWeight.w600,
   );
 
@@ -142,26 +88,13 @@ class AppStyle {
     ),
   );
 
-  static TextStyle textStyleregular16 = TextStyle(
-    color: ColorConstant.bluegray400,
+  static TextStyle textStylePoppinsmedium10 = TextStyle(
+    color: ColorConstant.gray90099,
     fontSize: getFontSize(
-      16,
+      10,
     ),
-    fontWeight: FontWeight.w400,
-  );
-
-  static TextStyle textStylePoppinsmedium10 =
-      textStylePoppinsregular101.copyWith(
+    fontFamily: 'Poppins',
     fontWeight: FontWeight.w500,
-  );
-
-  static TextStyle textStyleRobotomedium12 = textStyleRobotomedium121.copyWith(
-    color: ColorConstant.black90087,
-  );
-
-  static TextStyle textStyleNunitoSansregular10 =
-      textStyleNunitoSansregular101.copyWith(
-    color: ColorConstant.gray900,
   );
 
   static TextStyle textStyleIBMPlexSerif14 = TextStyle(
@@ -173,24 +106,6 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle textStyleRobotomedium121 = TextStyle(
-    color: ColorConstant.deepPurple90087,
-    fontSize: getFontSize(
-      12,
-    ),
-    fontFamily: 'Roboto',
-    fontWeight: FontWeight.w500,
-  );
-
-  static TextStyle textStylePoppinsmedium5 = TextStyle(
-    color: ColorConstant.whiteA700,
-    fontSize: getFontSize(
-      5,
-    ),
-    fontFamily: 'Poppins',
-    fontWeight: FontWeight.w500,
-  );
-
   static TextStyle textStylePoppinsregular9 =
       textStylePoppinsregular92.copyWith(
     color: ColorConstant.gray100,
@@ -198,13 +113,23 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle textStylePoppinsregular10 =
-      textStyleNunitoSansregular10.copyWith(
+  static TextStyle textStyleNunitoSansregular102 =
+      textStyleNunitoSansregular151.copyWith(
     fontSize: getFontSize(
       10,
     ),
-    fontFamily: 'Poppins',
-    fontWeight: FontWeight.w400,
+  );
+
+  static TextStyle textStylePoppinsregular10 =
+      textStylePoppinsregular13.copyWith(
+    fontSize: getFontSize(
+      10,
+    ),
+  );
+
+  static TextStyle textStyleNunitoSansregular121 =
+      textStyleNunitoSansregular122.copyWith(
+    color: ColorConstant.gray901,
   );
 
   static TextStyle textStyleComicSansMSbold32 = TextStyle(
@@ -214,6 +139,15 @@ class AppStyle {
     ),
     fontFamily: 'Comic Sans MS',
     fontWeight: FontWeight.w700,
+  );
+
+  static TextStyle textStylePoppinsregular13 = TextStyle(
+    color: ColorConstant.gray900,
+    fontSize: getFontSize(
+      13,
+    ),
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w400,
   );
 
   static TextStyle textStylePoppinsregular6 =
@@ -232,10 +166,108 @@ class AppStyle {
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle textStyleNunitoSansregular101 = TextStyle(
-    color: ColorConstant.black900,
+  static TextStyle textStyleNunitoSansregular101 =
+      textStyleNunitoSansregular122.copyWith(
     fontSize: getFontSize(
       10,
+    ),
+  );
+
+  static TextStyle textStyleNunitoSansregular122 = TextStyle(
+    color: ColorConstant.black900,
+    fontSize: getFontSize(
+      12,
+    ),
+    fontFamily: 'Nunito Sans',
+    fontWeight: FontWeight.w400,
+  );
+
+  static TextStyle textStyleIBMPlexSerifsemibold24 = TextStyle(
+    color: ColorConstant.whiteA700,
+    fontSize: getFontSize(
+      24,
+    ),
+    fontFamily: 'IBM Plex Serif',
+    fontWeight: FontWeight.w600,
+  );
+
+  static TextStyle textStyleNunitoSansbold12 =
+      textStyleNunitoSansregular121.copyWith(
+    fontWeight: FontWeight.w700,
+  );
+
+  static TextStyle textStylePoppinsmedium14 = TextStyle(
+    color: ColorConstant.blue800,
+    fontSize: getFontSize(
+      14,
+    ),
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w500,
+  );
+
+  static TextStyle textStylePoppinsblack10 = TextStyle(
+    color: ColorConstant.bluegray800,
+    fontSize: getFontSize(
+      10,
+    ),
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w900,
+  );
+
+  static TextStyle textStyleIBMPlexSerifsemibold32 = TextStyle(
+    color: ColorConstant.black900,
+    fontSize: getFontSize(
+      32,
+    ),
+    fontFamily: 'IBM Plex Serif',
+    fontWeight: FontWeight.w600,
+  );
+
+  static TextStyle textStyleNunitoSansregular12 =
+      textStyleNunitoSansregular122.copyWith(
+    color: ColorConstant.gray900,
+  );
+
+  static TextStyle textStyleNunitoSansregular15 =
+      textStyleNunitoSansregular151.copyWith(
+    color: ColorConstant.gray900,
+  );
+
+  static TextStyle textStyleIBMPlexSerifbold12 = TextStyle(
+    color: ColorConstant.gray900,
+    fontSize: getFontSize(
+      12,
+    ),
+    fontFamily: 'IBM Plex Serif',
+    fontWeight: FontWeight.w700,
+  );
+
+  static TextStyle textStylePoppinssemibold12 = TextStyle(
+    color: ColorConstant.gray900,
+    fontSize: getFontSize(
+      12,
+    ),
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w600,
+  );
+
+  static TextStyle textStyleregular16 = TextStyle(
+    color: ColorConstant.bluegray400,
+    fontSize: getFontSize(
+      16,
+    ),
+    fontWeight: FontWeight.w400,
+  );
+
+  static TextStyle textStyleNunitoSansregular10 =
+      textStyleNunitoSansregular101.copyWith(
+    color: ColorConstant.gray900,
+  );
+
+  static TextStyle textStyleNunitoSansregular151 =
+      textStyleNunitoSansregular121.copyWith(
+    fontSize: getFontSize(
+      15,
     ),
     fontFamily: 'Nunito Sans',
     fontWeight: FontWeight.w400,

@@ -22,18 +22,18 @@ flutter:
     - assets/
     - assets/images/
   fonts: 
-    - family: Montserrat
-      fonts: 
-        - asset: assets/fonts/montserratlight300.ttf
-          weight: 300
     - family: Roboto
       fonts: 
         - asset: assets/fonts/robotoregular400.ttf
           weight: 400
-        - asset: assets/fonts/robotomedium500.ttf
-          weight: 500
         - asset: assets/fonts/robotobold700.ttf
           weight: 700
+    - family: Nunito Sans
+      fonts: 
+        - asset: assets/fonts/nunitosansbold700.ttf
+          weight: 700
+        - asset: assets/fonts/nunitosansregular400.ttf
+          weight: 400
     - family: Poppins
       fonts: 
         - asset: assets/fonts/poppinsmedium500.ttf
@@ -46,11 +46,9 @@ flutter:
           weight: 400
     - family: IBM Plex Serif
       fonts: 
+        - asset: assets/fonts/ibmplexserifbold700.ttf
+          weight: 700
         - asset: assets/fonts/ibmplexserifibmplexserif400.ttf
           weight: 400
         - asset: assets/fonts/ibmplexserifsemibold600.ttf
           weight: 600
-    - family: Nunito Sans
-      fonts: 
-        - asset: assets/fonts/nunitosansregular400.ttf
-          weight: 400

@@ -123,6 +123,61 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                                   BoxDecoration(
                                                                       color: ColorConstant
                                                                           .bluegray400))
+                                                        ]))),
+                                            GestureDetector(
+                                                onTap: () {
+                                                  onTapArticleDetailsMobile();
+                                                },
+                                                child: Container(
+                                                    width: size.width,
+                                                    decoration: BoxDecoration(
+                                                        color: ColorConstant
+                                                            .whiteA700),
+                                                    child: Column(
+                                                        mainAxisSize:
+                                                            MainAxisSize.min,
+                                                        mainAxisAlignment:
+                                                            MainAxisAlignment
+                                                                .start,
+                                                        children: [
+                                                          Align(
+                                                              alignment: Alignment
+                                                                  .centerLeft,
+                                                              child: Padding(
+                                                                  padding: EdgeInsets.only(
+                                                                      left: getHorizontalSize(
+                                                                          20.00),
+                                                                      top: getVerticalSize(
+                                                                          10.00),
+                                                                      right: getHorizontalSize(
+                                                                          20.00),
+                                                                      bottom: getVerticalSize(
+                                                                          10.00)),
+                                                                  child: Text(
+                                                                      "msg_article_details"
+                                                                          .tr,
+                                                                      overflow:
+                                                                          TextOverflow
+                                                                              .ellipsis,
+                                                                      textAlign:
+                                                                          TextAlign
+                                                                              .center,
+                                                                      style: AppStyle
+                                                                          .textStyleregular20
+                                                                          .copyWith(fontSize: getFontSize(20))))),
+                                                          Container(
+                                                              height:
+                                                                  getVerticalSize(
+                                                                      1.00),
+                                                              width: size.width,
+                                                              margin: EdgeInsets
+                                                                  .only(
+                                                                      top: getVerticalSize(
+                                                                          5.00)),
+                                                              decoration:
+                                                                  BoxDecoration(
+                                                                      color: ColorConstant
+                                                                          .bluegray400))
                                                         ])))
                                           ])))))
                     ]))));
@@ -130,5 +185,9 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
 
   onTapNewsHomepageMobile() {
     Get.toNamed(AppRoutes.newsHomepageMobileScreen);
+  }
+
+  onTapArticleDetailsMobile() {
+    Get.toNamed(AppRoutes.articleDetailsMobileScreen);
   }
 }
