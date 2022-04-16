@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 class NewsHomepageMobileController extends GetxController
     with StateMixin<dynamic> {
-  TextEditingController group31Controller = TextEditingController();
+  TextEditingController group30Controller = TextEditingController();
 
   TextEditingController textareaFocuController = TextEditingController();
 
@@ -19,7 +19,7 @@ class NewsHomepageMobileController extends GetxController
   @override
   void onClose() {
     super.onClose();
-    group31Controller.dispose();
+    group30Controller.dispose();
     textareaFocuController.dispose();
   }
 }

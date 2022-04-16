@@ -17,6 +17,8 @@ class ImageConstant {
 
   static String imgImage741 = 'assets/images/img_image74_1.png';
 
+  static String imgVector8 = 'assets/images/img_vector_8.svg';
+
   static String imgIconfillcheck = 'assets/images/img_iconfillcheck.svg';
 
   static String imgVector8 = 'assets/images/img_vector_8.png';
@@ -89,6 +91,8 @@ class ImageConstant {
 
   static String imgG27041 = 'assets/images/img_g2704_1.svg';
 
+  static String imgItemtwo1 = 'assets/images/img_itemtwo_1.svg';
+
   static String imgMoneybag400301 = 'assets/images/img_moneybag400301.svg';
 
   static String imgIconfillplus3 = 'assets/images/img_iconfillplus_3.svg';
@@ -114,6 +118,8 @@ class ImageConstant {
   static String imgNewsimage = 'assets/images/img_newsimage.png';
 
   static String imgGroup2881 = 'assets/images/img_group288_1.svg';
+
+  static String imgVector9 = 'assets/images/img_vector_9.svg';
 
   static String imgVector9 = 'assets/images/img_vector_9.png';
 

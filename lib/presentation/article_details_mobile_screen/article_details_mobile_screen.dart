@@ -62,7 +62,7 @@ class ArticleDetailsMobileScreen
                                       ),
                                       child: TextFormField(
                                         controller:
-                                            controller.group63Controller,
+                                            controller.group62Controller,
                                         decoration: InputDecoration(
                                           hintText: "lbl_home".tr,
                                           hintStyle: AppStyle
@@ -1851,7 +1851,7 @@ class ArticleDetailsMobileScreen
                                                                             ),
                                                                             child:
                                                                                 SvgPicture.asset(
-                                                                              ImageConstant.imgVector2,
+                                                                              ImageConstant.imgVector8,
                                                                               fit: BoxFit.fill,
                                                                             ),
                                                                           ),
@@ -1907,7 +1907,7 @@ class ArticleDetailsMobileScreen
                                                                         child: SvgPicture
                                                                             .asset(
                                                                           ImageConstant
-                                                                              .imgItemtwo,
+                                                                              .imgItemtwo1,
                                                                           fit: BoxFit
                                                                               .fill,
                                                                         ),
@@ -1959,7 +1959,7 @@ class ArticleDetailsMobileScreen
                                                                         child: SvgPicture
                                                                             .asset(
                                                                           ImageConstant
-                                                                              .imgVector3,
+                                                                              .imgVector9,
                                                                           fit: BoxFit
                                                                               .fill,
                                                                         ),

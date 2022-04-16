@@ -1,9 +1,9 @@
-<svg width="328" height="144" viewBox="0 0 328 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="328" height="179" viewBox="0 0 328 179" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_255_676)">
-<path d="M14 15C14 13.3431 15.3431 12 17 12H311C312.657 12 314 13.3431 314 15V124.077C314 125.734 312.657 127.077 311 127.077H17C15.3431 127.077 14 125.734 14 124.077V15Z" fill="white"/>
+<path d="M14 15C14 13.3431 15.3431 12 17 12H311C312.657 12 314 13.3431 314 15V160C314 161.657 312.657 163 311 163H17C15.3431 163 14 161.657 14 160V15Z" fill="white"/>
 </g>
 <defs>
-<filter id="filter0_d_255_676" x="0" y="0" width="328" height="143.077" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_255_676" x="0" y="0" width="328" height="179" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="2"/>
