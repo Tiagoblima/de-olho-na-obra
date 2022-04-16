@@ -16,8 +16,6 @@ final Map<String, String> enUs = {
   "lbl_atrasada2": "Atrasada:",
   "msg_natureza_da_obr": "Natureza da Obra",
   "lbl_coment_rios": "Comentários",
-  "msg_https_www_oec":
-      "https://www.oecd.org/gov/ethics/integrity-recommendation-brazilian-portuguese.pdf",
   "lbl_app_navigation": "App Navigation",
   "msg_feedbacks_sobre": "Feedbacks sobre a plataforma",
   "lbl_pavimenta_o": "Pavimentação",
