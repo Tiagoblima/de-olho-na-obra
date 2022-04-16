@@ -1177,7 +1177,7 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                 alignment: Alignment.center,
                                                 child: Container(
                                                     height:
-                                                        getVerticalSize(160.00),
+                                                        getVerticalSize(165.00),
                                                     width: getHorizontalSize(
                                                         300.00),
                                                     margin: EdgeInsets.only(
@@ -1196,7 +1196,7 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                               child: Container(
                                                                   height:
                                                                       getVerticalSize(
-                                                                          160.00),
+                                                                          165.00),
                                                                   width:
                                                                       getHorizontalSize(
                                                                           300.00),
@@ -1209,7 +1209,7 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                                             alignment: Alignment
                                                                                 .centerLeft,
                                                                             child: Container(
-                                                                                height: getVerticalSize(160.00),
+                                                                                height: getVerticalSize(165.00),
                                                                                 width: getHorizontalSize(300.00),
                                                                                 child: SvgPicture.asset(ImageConstant.imgCommentarea, fit: BoxFit.fill))),
                                                                         Container(
@@ -1287,7 +1287,7 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                             Padding(
                                                 padding: EdgeInsets.only(
                                                     top:
-                                                        getVerticalSize(17.00)),
+                                                        getVerticalSize(12.00)),
                                                 child: Column(
                                                     mainAxisSize:
                                                         MainAxisSize.min,
