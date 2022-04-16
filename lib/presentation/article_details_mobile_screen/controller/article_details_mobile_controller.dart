@@ -4,8 +4,6 @@ import 'package:flutter/material.dart';
 
 class ArticleDetailsMobileController extends GetxController
     with StateMixin<dynamic> {
-  TextEditingController group62Controller = TextEditingController();
-
   TextEditingController textareaFocuController1 = TextEditingController();
 
   Rx<ArticleDetailsMobileModel> articleDetailsMobileModelObj =
@@ -19,7 +17,6 @@ class ArticleDetailsMobileController extends GetxController
   @override
   void onClose() {
     super.onClose();
-    group62Controller.dispose();
     textareaFocuController1.dispose();
   }
 }

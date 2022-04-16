@@ -9,6 +9,8 @@ class ImageConstant {
 
   static String imgButton = 'assets/images/img_button.svg';
 
+  static String imgRectangle185 = 'assets/images/img_rectangle185.svg';
+
   static String imgImage72 = 'assets/images/img_image72.png';
 
   static String imgUnion2 = 'assets/images/img_union_2.png';

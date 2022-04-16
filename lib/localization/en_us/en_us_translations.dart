@@ -44,6 +44,7 @@ final Map<String, String> enUs = {
   "msg_no_dia_24_11_20":
       r"No dia 24/11/2021 iniciou a Obra de  drenagem na Kennedy. A obra tem um prazo de 180 dias e está sob a responsabilidade da prefeitura de Olinda. O orçamento inicial foi de  R$ 10000,00 reais e já foram gastos  R$ 5000,00 reais.\n\n",
   "msg_news_homepage_m": "News Homepage Mobile",
+  "lbl_transpar_ncia": "Transparência",
   "msg_mais_sobre_tran": "Mais sobre Transparência",
   "msg_veja_as_princip": "Veja as principais gastos ",
   "lbl_atrasada": "Atrasada: ",
