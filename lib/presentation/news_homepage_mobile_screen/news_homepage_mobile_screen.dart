@@ -669,8 +669,8 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                     width: getHorizontalSize(
                                                         342.00),
                                                     child: Stack(
-                                                        alignment:
-                                                            Alignment.topRight,
+                                                        alignment: Alignment
+                                                            .centerRight,
                                                         children: [
                                                           Align(
                                                               alignment: Alignment
@@ -682,35 +682,14 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                                   width:
                                                                       getHorizontalSize(
                                                                           342.00),
-                                                                  child: Stack(
-                                                                      alignment:
-                                                                          Alignment
-                                                                              .bottomCenter,
-                                                                      children: [
-                                                                        Align(
-                                                                            alignment: Alignment
-                                                                                .centerLeft,
-                                                                            child: Container(
-                                                                                height: getVerticalSize(304.00),
-                                                                                width: getHorizontalSize(342.00),
-                                                                                child: SvgPicture.asset(ImageConstant.imgRectangle37, fit: BoxFit.fill))),
-                                                                        Align(
-                                                                            alignment:
-                                                                                Alignment.bottomCenter,
-                                                                            child: Padding(
-                                                                                padding: EdgeInsets.only(top: getVerticalSize(55.61), right: getHorizontalSize(0.84), bottom: getVerticalSize(55.61)),
-                                                                                child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.start, children: [
-                                                                                  Row(mainAxisAlignment: MainAxisAlignment.end, crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.max, children: [
-                                                                                    Padding(padding: EdgeInsets.only(left: getHorizontalSize(27.93), top: getVerticalSize(0.47), bottom: getVerticalSize(0.57)), child: Text("lbl_12_hours_ago".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsregular10.copyWith(fontSize: getFontSize(10)))),
-                                                                                    Container(width: getHorizontalSize(202.01), margin: EdgeInsets.only(left: getHorizontalSize(23.35), right: getHorizontalSize(14.47)), child: Text("msg_por_prefeitura".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsregular101.copyWith(fontSize: getFontSize(10))))
-                                                                                  ]),
-                                                                                  Container(height: getVerticalSize(1.17), width: getHorizontalSize(341.16), margin: EdgeInsets.only(top: getVerticalSize(9.17), bottom: getVerticalSize(0.00)), decoration: BoxDecoration(color: ColorConstant.gray900))
-                                                                                ])))
-                                                                      ]))),
+                                                                  child: SvgPicture.asset(
+                                                                      ImageConstant
+                                                                          .imgRectangle37,
+                                                                      fit: BoxFit
+                                                                          .fill))),
                                                           Align(
-                                                              alignment:
-                                                                  Alignment
-                                                                      .topRight,
+                                                              alignment: Alignment
+                                                                  .centerRight,
                                                               child: Container(
                                                                   width:
                                                                       getHorizontalSize(
@@ -749,17 +728,33 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                                                 getHorizontalSize(302.96),
                                                                             margin: EdgeInsets.only(left: getHorizontalSize(0.73), top: getVerticalSize(5.63)),
                                                                             child: Text("msg_e_por_falar_em".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.textStyleNunitoSansregular12.copyWith(fontSize: getFontSize(12), height: 1.83))),
+                                                                        Align(
+                                                                            alignment:
+                                                                                Alignment.center,
+                                                                            child: Padding(
+                                                                                padding: EdgeInsets.only(left: getHorizontalSize(1.00), top: getVerticalSize(21.33), right: getHorizontalSize(3.93)),
+                                                                                child: Row(mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.max, children: [
+                                                                                  Padding(padding: EdgeInsets.only(top: getVerticalSize(0.47), bottom: getVerticalSize(0.57)), child: Text("lbl_12_hours_ago".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsregular10.copyWith(fontSize: getFontSize(10)))),
+                                                                                  Container(width: getHorizontalSize(202.01), margin: EdgeInsets.only(left: getHorizontalSize(23.35)), child: Text("msg_por_prefeitura".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsregular101.copyWith(fontSize: getFontSize(10))))
+                                                                                ]))),
                                                                         Padding(
                                                                             padding: EdgeInsets.only(
-                                                                                left: getHorizontalSize(62.85),
-                                                                                top: getVerticalSize(61.86),
-                                                                                right: getHorizontalSize(62.85)),
-                                                                            child: Row(mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
-                                                                              Padding(padding: EdgeInsets.only(top: getVerticalSize(0.39)), child: Container(height: getVerticalSize(15.32), width: getHorizontalSize(16.33), child: SvgPicture.asset(ImageConstant.imgVector, fit: BoxFit.fill))),
-                                                                              Padding(padding: EdgeInsets.only(left: getHorizontalSize(12.02), bottom: getVerticalSize(1.90)), child: Text("lbl_2".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsmedium10.copyWith(fontSize: getFontSize(10)))),
-                                                                              Padding(padding: EdgeInsets.only(left: getHorizontalSize(23.94), bottom: getVerticalSize(1.90)), child: Container(height: getVerticalSize(15.77), width: getHorizontalSize(17.54), child: SvgPicture.asset(ImageConstant.imgVector1, fit: BoxFit.fill))),
-                                                                              Padding(padding: EdgeInsets.only(left: getHorizontalSize(9.44), top: getVerticalSize(1.97), bottom: getVerticalSize(1.90)), child: Text("lbl_2".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsmedium10.copyWith(fontSize: getFontSize(10)))),
-                                                                              Padding(padding: EdgeInsets.only(left: getHorizontalSize(14.45), bottom: getVerticalSize(1.90)), child: Container(height: getVerticalSize(15.77), width: getHorizontalSize(7.81), child: SvgPicture.asset(ImageConstant.imgGroupitem, fit: BoxFit.fill)))
+                                                                                left: getHorizontalSize(41.07),
+                                                                                top: getVerticalSize(20.95),
+                                                                                right: getHorizontalSize(41.07)),
+                                                                            child: Row(mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.max, children: [
+                                                                              Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
+                                                                                Container(height: getSize(24.00), width: getSize(24.00), child: SvgPicture.asset(ImageConstant.imgStarborder, fit: BoxFit.fill)),
+                                                                                Padding(padding: EdgeInsets.only(left: getHorizontalSize(8.38), top: getVerticalSize(4.97), bottom: getVerticalSize(5.23)), child: Text("lbl_2".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsmedium10.copyWith(fontSize: getFontSize(10))))
+                                                                              ]),
+                                                                              Padding(
+                                                                                  padding: EdgeInsets.only(left: getHorizontalSize(27.53), top: getVerticalSize(3.00), bottom: getVerticalSize(5.00)),
+                                                                                  child: Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
+                                                                                    Container(height: getSize(16.00), width: getSize(16.00), child: SvgPicture.asset(ImageConstant.imgVector, fit: BoxFit.fill)),
+                                                                                    Padding(padding: EdgeInsets.only(left: getHorizontalSize(15.02), top: getVerticalSize(1.97), bottom: getVerticalSize(0.23)), child: Text("lbl_2".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsmedium10.copyWith(fontSize: getFontSize(10))))
+                                                                                  ])),
+                                                                              Padding(padding: EdgeInsets.only(left: getHorizontalSize(16.59), top: getVerticalSize(3.17), bottom: getVerticalSize(4.83)), child: Container(height: getSize(16.00), width: getSize(16.00), child: SvgPicture.asset(ImageConstant.imgGroupitem, fit: BoxFit.fill))),
+                                                                              Padding(padding: EdgeInsets.only(left: getHorizontalSize(17.00), top: getVerticalSize(3.00), bottom: getVerticalSize(5.00)), child: Container(height: getSize(16.00), width: getSize(16.00), child: SvgPicture.asset(ImageConstant.imgGroupitem1, fit: BoxFit.fill)))
                                                                             ]))
                                                                       ])))
                                                         ]))),
@@ -1184,7 +1179,7 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                                 9.00)),
                                                     child: Stack(
                                                         alignment:
-                                                            Alignment.topCenter,
+                                                            Alignment.center,
                                                         children: [
                                                           Align(
                                                               alignment: Alignment
@@ -1218,17 +1213,17 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                           Align(
                                                               alignment:
                                                                   Alignment
-                                                                      .topCenter,
+                                                                      .center,
                                                               child: Padding(
                                                                   padding: EdgeInsets.only(
                                                                       left: getHorizontalSize(
-                                                                          10.00),
+                                                                          11.00),
                                                                       top: getVerticalSize(
                                                                           9.08),
                                                                       right: getHorizontalSize(
-                                                                          9.39),
+                                                                          18.00),
                                                                       bottom: getVerticalSize(
-                                                                          10.00)),
+                                                                          12.00)),
                                                                   child: Column(
                                                                       mainAxisSize:
                                                                           MainAxisSize
@@ -1242,42 +1237,36 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                                       children: [
                                                                         Padding(
                                                                             padding:
-                                                                                EdgeInsets.only(left: getHorizontalSize(5.00), right: getHorizontalSize(10.00)),
+                                                                                EdgeInsets.only(left: getHorizontalSize(4.00), right: getHorizontalSize(10.00)),
                                                                             child: Text("msg_t_tulo_do_comen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStyleIBMPlexSerifsemibold15.copyWith(fontSize: getFontSize(15), height: 1.80))),
                                                                         Container(
-                                                                            width: getHorizontalSize(
-                                                                                263.00),
-                                                                            margin: EdgeInsets.only(
-                                                                                left: getHorizontalSize(9.00),
-                                                                                top: getVerticalSize(26.12),
-                                                                                right: getHorizontalSize(8.61)),
+                                                                            width:
+                                                                                getHorizontalSize(263.00),
+                                                                            margin: EdgeInsets.only(left: getHorizontalSize(8.00), top: getVerticalSize(26.12)),
                                                                             child: Text("msg_aqui_vai_um_com".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.textStyleNunitoSansregular10.copyWith(fontSize: getFontSize(10), height: 2.20))),
                                                                         Padding(
                                                                             padding:
-                                                                                EdgeInsets.only(top: getVerticalSize(30.65)),
-                                                                            child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.start, children: [
-                                                                              Align(
-                                                                                  alignment: Alignment.center,
-                                                                                  child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.max, children: [
-                                                                                    Padding(
-                                                                                        padding: EdgeInsets.only(bottom: getVerticalSize(0.54)),
-                                                                                        child: Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
-                                                                                          Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.max, children: [
-                                                                                            Padding(padding: EdgeInsets.only(top: getVerticalSize(2.28)), child: Container(height: getVerticalSize(13.62), width: getHorizontalSize(12.00), child: SvgPicture.asset(ImageConstant.imgVector2, fit: BoxFit.fill))),
-                                                                                            Padding(padding: EdgeInsets.only(left: getHorizontalSize(9.00), bottom: getVerticalSize(1.13)), child: Text("lbl_10".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsmedium101.copyWith(fontSize: getFontSize(10))))
-                                                                                          ]),
-                                                                                          Padding(padding: EdgeInsets.only(left: getHorizontalSize(6.00), top: getVerticalSize(1.14), bottom: getVerticalSize(1.13)), child: Container(height: getVerticalSize(13.62), width: getHorizontalSize(12.00), child: SvgPicture.asset(ImageConstant.imgItemtwo, fit: BoxFit.fill)))
-                                                                                        ])),
-                                                                                    Padding(
-                                                                                        padding: EdgeInsets.only(top: getVerticalSize(2.28)),
-                                                                                        child: Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
-                                                                                          Padding(padding: EdgeInsets.only(bottom: getVerticalSize(0.53)), child: Container(height: getVerticalSize(13.62), width: getHorizontalSize(12.00), child: SvgPicture.asset(ImageConstant.imgVector3, fit: BoxFit.fill))),
-                                                                                          Padding(padding: EdgeInsets.only(left: getHorizontalSize(11.75), top: getVerticalSize(1.35), bottom: getVerticalSize(3.33)), child: Text("lbl_72".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsmedium10.copyWith(fontSize: getFontSize(10)))),
-                                                                                          Padding(padding: EdgeInsets.only(left: getHorizontalSize(11.23), top: getVerticalSize(0.53)), child: Container(height: getVerticalSize(13.62), width: getHorizontalSize(23.38), child: SvgPicture.asset(ImageConstant.imgItemfour, fit: BoxFit.fill)))
-                                                                                        ]))
-                                                                                  ])),
-                                                                              Padding(padding: EdgeInsets.only(left: getHorizontalSize(1.00), right: getHorizontalSize(10.00), bottom: getVerticalSize(0.00)), child: Text("msg_por_jos_da_si".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsregular101.copyWith(fontSize: getFontSize(10))))
-                                                                            ]))
+                                                                                EdgeInsets.only(top: getVerticalSize(46.55), right: getHorizontalSize(10.00)),
+                                                                            child: Text("msg_por_jos_da_si".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsregular101.copyWith(fontSize: getFontSize(10)))),
+                                                                        Align(
+                                                                            alignment:
+                                                                                Alignment.centerRight,
+                                                                            child: Padding(
+                                                                                padding: EdgeInsets.only(left: getHorizontalSize(48.00), top: getVerticalSize(4.11), right: getHorizontalSize(30.00)),
+                                                                                child: Row(mainAxisAlignment: MainAxisAlignment.end, crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.max, children: [
+                                                                                  Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
+                                                                                    Container(height: getSize(24.00), width: getSize(24.00), child: SvgPicture.asset(ImageConstant.imgStarborder, fit: BoxFit.fill)),
+                                                                                    Padding(padding: EdgeInsets.only(left: getHorizontalSize(8.38), top: getVerticalSize(4.97), bottom: getVerticalSize(5.23)), child: Text("lbl_2".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsmedium10.copyWith(fontSize: getFontSize(10))))
+                                                                                  ]),
+                                                                                  Padding(
+                                                                                      padding: EdgeInsets.only(left: getHorizontalSize(27.53), top: getVerticalSize(3.00), bottom: getVerticalSize(5.00)),
+                                                                                      child: Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
+                                                                                        Container(height: getSize(16.00), width: getSize(16.00), child: SvgPicture.asset(ImageConstant.imgVector, fit: BoxFit.fill)),
+                                                                                        Padding(padding: EdgeInsets.only(left: getHorizontalSize(15.02), top: getVerticalSize(1.97), bottom: getVerticalSize(0.23)), child: Text("lbl_2".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsmedium10.copyWith(fontSize: getFontSize(10))))
+                                                                                      ])),
+                                                                                  Padding(padding: EdgeInsets.only(left: getHorizontalSize(16.59), top: getVerticalSize(3.17), bottom: getVerticalSize(4.83)), child: Container(height: getSize(16.00), width: getSize(16.00), child: SvgPicture.asset(ImageConstant.imgGroupitem, fit: BoxFit.fill))),
+                                                                                  Padding(padding: EdgeInsets.only(left: getHorizontalSize(17.00), top: getVerticalSize(3.00), bottom: getVerticalSize(5.00)), child: Container(height: getSize(16.00), width: getSize(16.00), child: SvgPicture.asset(ImageConstant.imgGroupitem1, fit: BoxFit.fill)))
+                                                                                ])))
                                                                       ])))
                                                         ]))),
                                             Padding(
@@ -1317,30 +1306,33 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                       Align(
                                                           alignment: Alignment
                                                               .centerLeft,
-                                                          child: Container(
-                                                              height:
-                                                                  getVerticalSize(
-                                                                      33.36),
-                                                              width:
-                                                                  getHorizontalSize(
-                                                                      48.08),
-                                                              margin: EdgeInsets.only(
-                                                                  left: getHorizontalSize(
-                                                                      108.50),
-                                                                  top: getVerticalSize(
-                                                                      25.95),
-                                                                  right: getHorizontalSize(
-                                                                      108.50)),
-                                                              decoration:
-                                                                  BoxDecoration(
-                                                                      color: ColorConstant
-                                                                          .teal200))),
+                                                          child:
+                                                              GestureDetector(
+                                                                  onTap: () {
+                                                                    onTapImgSiginbutton();
+                                                                  },
+                                                                  child: Padding(
+                                                                      padding: EdgeInsets.only(
+                                                                          left: getHorizontalSize(
+                                                                              108.50),
+                                                                          top: getVerticalSize(
+                                                                              25.95),
+                                                                          right: getHorizontalSize(
+                                                                              108.50)),
+                                                                      child: Container(
+                                                                          height: getVerticalSize(
+                                                                              33.37),
+                                                                          width: getHorizontalSize(
+                                                                              48.50),
+                                                                          child: SvgPicture.asset(
+                                                                              ImageConstant.imgSiginbutton,
+                                                                              fit: BoxFit.fill))))),
                                                       Padding(
                                                           padding: EdgeInsets.only(
                                                               left: getHorizontalSize(
                                                                   11.32),
                                                               top: getVerticalSize(
-                                                                  26.10)),
+                                                                  26.09)),
                                                           child: Container(
                                                               height:
                                                                   getVerticalSize(
@@ -1412,5 +1404,9 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
 
   onTapTxtEmolindadren() {
     Get.toNamed(AppRoutes.articleDetailsMobileScreen);
+  }
+
+  onTapImgSiginbutton() {
+    Get.toNamed(AppRoutes.googleSingInScreen);
   }
 }

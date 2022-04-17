@@ -2,11 +2,72 @@ import 'package:flutter/material.dart';
 import 'package:dono/core/app_export.dart';
 
 class AppDecoration {
+  static BoxDecoration get textStyleRobotoregular17 => BoxDecoration(
+        color: ColorConstant.red50,
+        borderRadius: BorderRadius.circular(
+          getHorizontalSize(
+            6.00,
+          ),
+        ),
+      );
   static BoxDecoration get groupStylewhiteA700 => BoxDecoration(
         color: ColorConstant.whiteA700,
       );
+  static BoxDecoration get textStyleProductSansbold141 => BoxDecoration(
+        color: ColorConstant.blue600,
+        borderRadius: BorderRadius.circular(
+          getHorizontalSize(
+            4.00,
+          ),
+        ),
+      );
+  static BoxDecoration get groupStylewhite1 => BoxDecoration(
+        color: ColorConstant.whiteA700,
+        borderRadius: BorderRadius.circular(
+          getHorizontalSize(
+            8.00,
+          ),
+        ),
+        border: Border.all(
+          color: ColorConstant.gray303,
+          width: getHorizontalSize(
+            1.00,
+          ),
+        ),
+      );
+  static BoxDecoration get groupStylewhite2 => BoxDecoration(
+        color: ColorConstant.whiteA700,
+        borderRadius: BorderRadius.circular(
+          getHorizontalSize(
+            8.00,
+          ),
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: ColorConstant.black90040,
+            spreadRadius: getHorizontalSize(
+              2.00,
+            ),
+            blurRadius: getHorizontalSize(
+              2.00,
+            ),
+            offset: Offset(
+              0,
+              4,
+            ),
+          ),
+        ],
+      );
   static BoxDecoration get groupStyleblue900 => BoxDecoration(
         color: ColorConstant.blue900,
+      );
+  static BoxDecoration get groupStylepurple700cornerRadius => BoxDecoration(
+        color: ColorConstant.purple700,
+        borderRadius: BorderRadius.circular(
+          getHorizontalSize(
+            14.00,
+          ),
+        ),
       );
   static BoxDecoration get groupStylewhiteA700D8 => BoxDecoration(
         color: ColorConstant.whiteA700D8,
@@ -74,6 +135,13 @@ class AppDecoration {
             ),
           ),
         ],
+      );
+  static BoxDecoration get textStyleRobotomedium12 => BoxDecoration(
+        borderRadius: BorderRadius.circular(
+          getHorizontalSize(
+            2.00,
+          ),
+        ),
       );
   static BoxDecoration get textStyleregular0 => BoxDecoration(
         color: ColorConstant.gray50,

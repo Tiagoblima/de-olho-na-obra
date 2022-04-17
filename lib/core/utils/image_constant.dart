@@ -26,6 +26,8 @@ class ImageConstant {
 
   static String imgRectangle37 = 'assets/images/img_rectangle37.svg';
 
+  static String imgGroupitem3 = 'assets/images/img_groupitem_3.svg';
+
   static String imgVector2 = 'assets/images/img_vector_2.svg';
 
   static String imgIcon2 = 'assets/images/img_icon_2.svg';
@@ -33,6 +35,8 @@ class ImageConstant {
   static String imgSideicon = 'assets/images/img_sideicon.svg';
 
   static String imgImage76 = 'assets/images/img_image76.png';
+
+  static String imgArrow = 'assets/images/img_arrow.svg';
 
   static String imgIconfillplus2 = 'assets/images/img_iconfillplus_2.svg';
 
@@ -42,17 +46,25 @@ class ImageConstant {
 
   static String imgVector1 = 'assets/images/img_vector_1.svg';
 
+  static String imgGooglelogo = 'assets/images/img_googlelogo.svg';
+
   static String imgIcon1 = 'assets/images/img_icon_1.svg';
 
   static String imgIcon3 = 'assets/images/img_icon_3.svg';
 
   static String imgIconfilllogo = 'assets/images/img_iconfilllogo.svg';
 
+  static String imgAccountIcon = 'assets/images/img_account_icon.svg';
+
   static String imgUnion1 = 'assets/images/img_union_1.png';
 
   static String imgLayer2 = 'assets/images/img_layer2.svg';
 
+  static String imgStarborder = 'assets/images/img_starborder.svg';
+
   static String imgSearcharea = 'assets/images/img_searcharea.svg';
+
+  static String imgChromewindow = 'assets/images/img_chromewindow.svg';
 
   static String imgGroup = 'assets/images/img_group.svg';
 
@@ -65,6 +77,10 @@ class ImageConstant {
   static String imgLupa = 'assets/images/img_lupa.svg';
 
   static String imgItemfour = 'assets/images/img_itemfour.svg';
+
+  static String imgSiginbutton = 'assets/images/img_siginbutton.svg';
+
+  static String imgBrandsGoogle = 'assets/images/img_brands_google.svg';
 
   static String imgIcon4 = 'assets/images/img_icon_4.svg';
 
@@ -104,11 +120,17 @@ class ImageConstant {
 
   static String imgG2704 = 'assets/images/img_g2704.svg';
 
+  static String imgLogo = 'assets/images/img_logo.svg';
+
   static String imgGroup288 = 'assets/images/img_group288.svg';
 
   static String imgVector10 = 'assets/images/img_vector_10.svg';
 
   static String imgRectangle372 = 'assets/images/img_rectangle37_2.svg';
+
+  static String imgStar = 'assets/images/img_star.svg';
+
+  static String imgVector21 = 'assets/images/img_vector2_1.svg';
 
   static String imgIconoutlinepe = 'assets/images/img_iconoutlinepe.svg';
 
