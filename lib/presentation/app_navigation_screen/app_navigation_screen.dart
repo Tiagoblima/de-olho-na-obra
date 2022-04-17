@@ -122,7 +122,7 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                               decoration:
                                                                   BoxDecoration(
                                                                       color: ColorConstant
-                                                                          .bluegray400))
+                                                                          .bluegray401))
                                                         ]))),
                                             GestureDetector(
                                                 onTap: () {
@@ -177,7 +177,117 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                               decoration:
                                                                   BoxDecoration(
                                                                       color: ColorConstant
-                                                                          .bluegray400))
+                                                                          .bluegray401))
+                                                        ]))),
+                                            GestureDetector(
+                                                onTap: () {
+                                                  onTapGooglesingin();
+                                                },
+                                                child: Container(
+                                                    width: size.width,
+                                                    decoration: BoxDecoration(
+                                                        color: ColorConstant
+                                                            .whiteA700),
+                                                    child: Column(
+                                                        mainAxisSize:
+                                                            MainAxisSize.min,
+                                                        mainAxisAlignment:
+                                                            MainAxisAlignment
+                                                                .start,
+                                                        children: [
+                                                          Align(
+                                                              alignment: Alignment
+                                                                  .centerLeft,
+                                                              child: Padding(
+                                                                  padding: EdgeInsets.only(
+                                                                      left: getHorizontalSize(
+                                                                          20.00),
+                                                                      top: getVerticalSize(
+                                                                          10.00),
+                                                                      right: getHorizontalSize(
+                                                                          20.00),
+                                                                      bottom: getVerticalSize(
+                                                                          10.00)),
+                                                                  child: Text(
+                                                                      "lbl_google_sing_in"
+                                                                          .tr,
+                                                                      overflow:
+                                                                          TextOverflow
+                                                                              .ellipsis,
+                                                                      textAlign:
+                                                                          TextAlign
+                                                                              .center,
+                                                                      style: AppStyle
+                                                                          .textStyleregular20
+                                                                          .copyWith(fontSize: getFontSize(20))))),
+                                                          Container(
+                                                              height:
+                                                                  getVerticalSize(
+                                                                      1.00),
+                                                              width: size.width,
+                                                              margin: EdgeInsets
+                                                                  .only(
+                                                                      top: getVerticalSize(
+                                                                          5.00)),
+                                                              decoration:
+                                                                  BoxDecoration(
+                                                                      color: ColorConstant
+                                                                          .bluegray401))
+                                                        ]))),
+                                            GestureDetector(
+                                                onTap: () {
+                                                  onTapGooglelogin();
+                                                },
+                                                child: Container(
+                                                    width: size.width,
+                                                    decoration: BoxDecoration(
+                                                        color: ColorConstant
+                                                            .whiteA700),
+                                                    child: Column(
+                                                        mainAxisSize:
+                                                            MainAxisSize.min,
+                                                        mainAxisAlignment:
+                                                            MainAxisAlignment
+                                                                .start,
+                                                        children: [
+                                                          Align(
+                                                              alignment: Alignment
+                                                                  .centerLeft,
+                                                              child: Padding(
+                                                                  padding: EdgeInsets.only(
+                                                                      left: getHorizontalSize(
+                                                                          20.00),
+                                                                      top: getVerticalSize(
+                                                                          10.00),
+                                                                      right: getHorizontalSize(
+                                                                          20.00),
+                                                                      bottom: getVerticalSize(
+                                                                          10.00)),
+                                                                  child: Text(
+                                                                      "lbl_google_login"
+                                                                          .tr,
+                                                                      overflow:
+                                                                          TextOverflow
+                                                                              .ellipsis,
+                                                                      textAlign:
+                                                                          TextAlign
+                                                                              .center,
+                                                                      style: AppStyle
+                                                                          .textStyleregular20
+                                                                          .copyWith(fontSize: getFontSize(20))))),
+                                                          Container(
+                                                              height:
+                                                                  getVerticalSize(
+                                                                      1.00),
+                                                              width: size.width,
+                                                              margin: EdgeInsets
+                                                                  .only(
+                                                                      top: getVerticalSize(
+                                                                          5.00)),
+                                                              decoration:
+                                                                  BoxDecoration(
+                                                                      color: ColorConstant
+                                                                          .bluegray401))
                                                         ])))
                                           ])))))
                     ]))));
@@ -189,5 +299,13 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
 
   onTapArticleDetailsMobile() {
     Get.toNamed(AppRoutes.articleDetailsMobileScreen);
+  }
+
+  onTapGooglesingin() {
+    Get.toNamed(AppRoutes.googleSingInScreen);
+  }
+
+  onTapGooglelogin() {
+    Get.toNamed(AppRoutes.googleLoginScreen);
   }
 }

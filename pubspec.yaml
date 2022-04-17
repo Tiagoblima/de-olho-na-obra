@@ -26,6 +26,8 @@ flutter:
       fonts: 
         - asset: assets/fonts/robotoregular400.ttf
           weight: 400
+        - asset: assets/fonts/robotomedium500.ttf
+          weight: 500
         - asset: assets/fonts/robotobold700.ttf
           weight: 700
     - family: Nunito Sans
