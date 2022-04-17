@@ -14,105 +14,113 @@ class ArticleDetailsMobileItemWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Align(
-      alignment: Alignment.centerLeft,
-      child: Padding(
-        padding: EdgeInsets.only(
-          left: getHorizontalSize(
-            2.92,
-          ),
-          top: getVerticalSize(
-            13.50,
-          ),
-          right: getHorizontalSize(
-            22.00,
-          ),
-          bottom: getVerticalSize(
-            13.50,
-          ),
+    return Padding(
+      padding: EdgeInsets.only(
+        left: getHorizontalSize(
+          6.06,
         ),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisSize: MainAxisSize.max,
-          children: [
-            Container(
-              height: getSize(
-                20.00,
-              ),
-              width: getSize(
-                20.00,
-              ),
-              child: SvgPicture.asset(
-                ImageConstant.imgIcon1,
-                fit: BoxFit.fill,
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.only(
-                left: getHorizontalSize(
-                  14.08,
+        top: getVerticalSize(
+          13.50,
+        ),
+        right: getHorizontalSize(
+          22.00,
+        ),
+        bottom: getVerticalSize(
+          13.50,
+        ),
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisSize: MainAxisSize.max,
+        children: [
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              Padding(
+                padding: EdgeInsets.only(
+                  bottom: getVerticalSize(
+                    2.09,
+                  ),
+                ),
+                child: Container(
+                  height: getSize(
+                    20.00,
+                  ),
+                  width: getSize(
+                    20.00,
+                  ),
+                  child: SvgPicture.asset(
+                    ImageConstant.imgIcon1,
+                    fit: BoxFit.fill,
+                  ),
                 ),
               ),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  Container(
-                    child: RichText(
-                      text: TextSpan(
-                        children: [
-                          TextSpan(
-                            text: "lbl_atrasada2".tr,
-                            style: TextStyle(
-                              color: ColorConstant.gray901,
-                              fontSize: getFontSize(
-                                12,
-                              ),
-                              fontFamily: 'Nunito Sans',
-                              fontWeight: FontWeight.w700,
-                              height: 1.83,
-                            ),
-                          ),
-                          TextSpan(
-                            text: ' ',
-                            style: TextStyle(
-                              color: ColorConstant.gray901,
-                              fontSize: getFontSize(
-                                12,
-                              ),
-                              fontFamily: 'Nunito Sans',
-                              fontWeight: FontWeight.w700,
-                              height: 1.83,
-                            ),
-                          ),
-                        ],
-                      ),
-                      textAlign: TextAlign.left,
-                    ),
+              Container(
+                margin: EdgeInsets.only(
+                  left: getHorizontalSize(
+                    10.94,
                   ),
-                  Padding(
-                    padding: EdgeInsets.only(
-                      left: getHorizontalSize(
-                        53.00,
-                      ),
-                    ),
-                    child: Text(
-                      "lbl_n_o".tr,
-                      overflow: TextOverflow.ellipsis,
-                      textAlign: TextAlign.left,
-                      style: AppStyle.textStyleNunitoSansregular102.copyWith(
-                        fontSize: getFontSize(
-                          10,
+                  top: getVerticalSize(
+                    2.09,
+                  ),
+                ),
+                child: RichText(
+                  text: TextSpan(
+                    children: [
+                      TextSpan(
+                        text: "lbl_atrasada2".tr,
+                        style: TextStyle(
+                          color: ColorConstant.gray901,
+                          fontSize: getFontSize(
+                            12,
+                          ),
+                          fontFamily: 'Nunito Sans',
+                          fontWeight: FontWeight.w700,
+                          height: 1.83,
                         ),
-                        height: 2.20,
                       ),
-                    ),
+                      TextSpan(
+                        text: ' ',
+                        style: TextStyle(
+                          color: ColorConstant.gray901,
+                          fontSize: getFontSize(
+                            12,
+                          ),
+                          fontFamily: 'Nunito Sans',
+                          fontWeight: FontWeight.w700,
+                          height: 1.83,
+                        ),
+                      ),
+                    ],
                   ),
-                ],
+                  textAlign: TextAlign.left,
+                ),
+              ),
+            ],
+          ),
+          Padding(
+            padding: EdgeInsets.only(
+              left: getHorizontalSize(
+                53.00,
+              ),
+              top: getVerticalSize(
+                2.09,
               ),
             ),
-          ],
-        ),
+            child: Text(
+              "lbl_n_o".tr,
+              overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.left,
+              style: AppStyle.textStyleNunitoSansregular102.copyWith(
+                fontSize: getFontSize(
+                  10,
+                ),
+                height: 2.20,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
