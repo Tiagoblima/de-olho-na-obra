@@ -1,4 +1,4 @@
-Propostas dos Projetos
+## Propostas dos Projetos
 
 **Título:** Aplicativo para Monitoramento de Gastos Públicos
 **Nome do Aluno:** Tiago Barbosa de Lima
