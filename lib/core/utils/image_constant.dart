@@ -13,6 +13,8 @@ class ImageConstant {
 
   static String imgImage72 = 'assets/images/img_image72.png';
 
+  static String imgStarborder1 = 'assets/images/img_starborder_1.svg';
+
   static String imgUnion2 = 'assets/images/img_union_2.png';
 
   static String imgVector = 'assets/images/img_vector.svg';
@@ -40,6 +42,8 @@ class ImageConstant {
   static String imgArrow = 'assets/images/img_arrow.svg';
 
   static String imgIconfillplus2 = 'assets/images/img_iconfillplus_2.svg';
+
+  static String imgGroupitem5 = 'assets/images/img_groupitem_5.svg';
 
   static String imgGroup270 = 'assets/images/img_group270.svg';
 
@@ -161,6 +165,8 @@ class ImageConstant {
 
   static String imgVector11 = 'assets/images/img_vector_11.svg';
 
+  static String imgStarborder2 = 'assets/images/img_starborder_2.svg';
+
   static String imgCommentarea3 = 'assets/images/img_commentarea_3.svg';
 
   static String imgIconoutlinetr = 'assets/images/img_iconoutlinetr.svg';
@@ -168,6 +174,8 @@ class ImageConstant {
   static String imgAppbrand = 'assets/images/img_appbrand.svg';
 
   static String imgVector3 = 'assets/images/img_vector_3.svg';
+
+  static String imgGroupitem4 = 'assets/images/img_groupitem_4.svg';
 
   static String imgImage74 = 'assets/images/img_image74.png';
 
