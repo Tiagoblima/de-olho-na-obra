@@ -3,7 +3,61 @@ import 'package:dono/core/app_export.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+
+class FavoriteWidget extends StatefulWidget {
+  const FavoriteWidget({Key? key}) : super(key: key);
+
+  @override
+  _FavoriteWidgetState createState() => _FavoriteWidgetState();
+}
+
+class _FavoriteWidgetState extends State<FavoriteWidget> {
+  // ···
+  bool _isFavorited = false;
+  int _favoriteCount = 40;
+  @override
+  Widget build(BuildContext context) {
+    void _toggleFavorite() {
+      setState(() {
+        if (_isFavorited) {
+          _favoriteCount -= 1;
+          _isFavorited = false;
+        } else {
+          _favoriteCount += 1;
+          _isFavorited = true;
+        }
+      });
+    }
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Container(
+          height: getSize(24),
+          width: getSize(24),
+          padding: const EdgeInsets.all(0),
+          child: IconButton(
+            padding: const EdgeInsets.all(0),
+            alignment: Alignment.centerRight,
+            icon: (_isFavorited
+                ? const Icon(Icons.star)
+                : const Icon(Icons.star_border)),
+            color: Colors.black,
+            onPressed: _toggleFavorite,
+          ),
+        ),
+        SizedBox(
+          width: 18,
+          child: SizedBox(
+            child: Text('$_favoriteCount'),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
 class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -744,8 +798,8 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                                                 right: getHorizontalSize(41.07)),
                                                                             child: Row(mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.max, children: [
                                                                               Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
-                                                                                Container(height: getSize(24.00), width: getSize(24.00), child: SvgPicture.asset(ImageConstant.imgStarborder, fit: BoxFit.fill)),
-                                                                                Padding(padding: EdgeInsets.only(left: getHorizontalSize(8.38), top: getVerticalSize(4.97), bottom: getVerticalSize(5.23)), child: Text("lbl_2".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsmedium10.copyWith(fontSize: getFontSize(10))))
+                                                                                FavoriteWidget(),
+
                                                                               ]),
                                                                               Padding(
                                                                                   padding: EdgeInsets.only(left: getHorizontalSize(27.53), top: getVerticalSize(3.00), bottom: getVerticalSize(5.00)),
