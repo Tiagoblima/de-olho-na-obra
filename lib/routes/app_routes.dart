@@ -10,6 +10,9 @@ import 'package:dono/presentation/app_navigation_screen/app_navigation_screen.da
 import 'package:dono/presentation/app_navigation_screen/binding/app_navigation_binding.dart';
 import 'package:get/get.dart';
 
+import '../presentation/app_splash_screen/app_splash_screen.dart';
+import '../presentation/app_splash_screen/binding/app_splash_binding.dart';
+
 class AppRoutes {
   static String newsHomepageMobileScreen = '/news_homepage_mobile_screen';
 
@@ -22,6 +25,8 @@ class AppRoutes {
   static String appNavigationScreen = '/app_navigation_screen';
 
   static String initialRoute = '/initialRoute';
+
+  static String appSplashScreen = '/app_splash_screen';
 
   static List<GetPage> pages = [
     GetPage(
@@ -60,10 +65,17 @@ class AppRoutes {
       ],
     ),
     GetPage(
-      name: initialRoute,
-      page: () => NewsHomepageMobileScreen(),
+      name: appSplashScreen,
+      page: () => AppSplashScreen(),
       bindings: [
-        NewsHomepageMobileBinding(),
+        AppSplashBinding(),
+      ],
+    ),
+    GetPage(
+      name: initialRoute,
+      page: () => AppSplashScreen(),
+      bindings: [
+        AppSplashBinding(),
       ],
     )
   ];
