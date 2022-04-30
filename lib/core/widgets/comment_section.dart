@@ -119,7 +119,7 @@ class CommentSection extends StatelessWidget{
             MainAxisAlignment.start,
             children: [
               Align(
-                  alignment: Alignment.centerLeft,
+                  alignment: Alignment.center,
                   child: Padding(
                       padding: EdgeInsets.only(
                           left: getHorizontalSize(
@@ -155,11 +155,13 @@ class CommentSection extends StatelessWidget{
                                               .centerLeft,
                                           child: Container(
                                               width: getHorizontalSize(
-                                                  280.91),
+                                                  270.51),
                                               child: Text("msg_feedbacks_sobre".tr,
                                                   maxLines: null,
                                                   textAlign: TextAlign.center,
-                                                  style: AppStyle.textStyleIBMPlexSerif14.copyWith(fontSize: getFontSize(14), height: 3.00)))),
+                                                  style: AppStyle.textStyleIBMPlexSerif14.copyWith(fontSize: getFontSize(14), height: 3.00)
+                                              )
+                                          )),
                                       Container(
                                           height:
                                           getVerticalSize(
@@ -178,20 +180,18 @@ class CommentSection extends StatelessWidget{
                                 height:
                                 getVerticalSize(
                                     1.00),
-                                width:
-                                getHorizontalSize(
-                                    280.91),
-                                margin: EdgeInsets
-                                    .only(
+                                width: getHorizontalSize(
+                                    270.51),
+                                margin: EdgeInsets.only(
                                     top: getVerticalSize(
-                                        8.12)),
+                                        10.00)),
                                 decoration:
                                 BoxDecoration(
-                                    color: ColorConstant
-                                        .blue700))
+                                    color:
+                                    ColorConstant.blue700))
                           ]))),
               Align(
-                  alignment: Alignment.centerLeft,
+                  alignment: Alignment.center,
                   child: Container(
                       height:
                       getVerticalSize(200.00),
@@ -209,7 +209,7 @@ class CommentSection extends StatelessWidget{
                           children: [
                             Align(
                                 alignment: Alignment
-                                    .centerLeft,
+                                    .center,
                                 child: Container(
                                     height:
                                     getVerticalSize(
@@ -224,7 +224,7 @@ class CommentSection extends StatelessWidget{
                                         children: [
                                           Align(
                                               alignment: Alignment
-                                                  .centerLeft,
+                                                  .center,
                                               child: Container(
                                                   height: getVerticalSize(200.00),
                                                   width: getHorizontalSize(300.00),
@@ -299,7 +299,7 @@ class CommentSection extends StatelessWidget{
                                         ])))
                           ]))),
               Align(
-                  alignment: Alignment.centerLeft,
+                  alignment: Alignment.center,
                   child: Padding(
                       padding: EdgeInsets.only(
                           top: getVerticalSize(
@@ -313,28 +313,23 @@ class CommentSection extends StatelessWidget{
                           children: [
                             Align(
                                 alignment: Alignment
-                                    .centerLeft,
+                                    .center,
                                 child: Padding(
                                     padding: EdgeInsets.only(
-                                        right: getHorizontalSize(
-                                            10.00)),
+                                        right: getHorizontalSize(10.00)),
                                     child: Text(
-                                        "msg_deixe_seu_comen"
-                                            .tr,
+                                        "msg_deixe_seu_comen".tr,
                                         overflow:
-                                        TextOverflow
-                                            .ellipsis,
+                                        TextOverflow.ellipsis,
                                         textAlign:
-                                        TextAlign
-                                            .left,
+                                        TextAlign.left,
                                         style: AppStyle.textStylePoppinsblack10.copyWith(
-                                            fontSize: getFontSize(
-                                                10),
-                                            letterSpacing:
-                                            0.17)))),
+                                            fontSize: getFontSize(10),
+                                            letterSpacing: 0.17))
+                                )
+                            ),
                             Align(
-                                alignment: Alignment
-                                    .centerLeft,
+                                alignment: Alignment.center,
                                 child:
                                 GestureDetector(
                                     onTap:
@@ -352,38 +347,24 @@ class CommentSection extends StatelessWidget{
                                         child: Container(
                                             height: getVerticalSize(33.37),
                                             width: getHorizontalSize(48.50),
-                                            child: SvgPicture.asset(ImageConstant.imgSiginbutton, fit: BoxFit.fill))))),
-                            Padding(
-                                padding: EdgeInsets.only(
-                                    left:
-                                    getHorizontalSize(
-                                        10.00),
-                                    top: getVerticalSize(
-                                        26.00)),
-                                child: Container(
-                                  height:
-                                  getVerticalSize(
-                                      53.03),
-                                  width:
-                                  getHorizontalSize(
-                                      297.68),
-                                )),
+                                            child: SvgPicture.asset(ImageConstant.imgSiginbutton, fit: BoxFit.fill)
+                                        )
+                                    )
+                                )
+                            ),
+
                             Padding(
                                 padding: EdgeInsets.only(
                                     top: getVerticalSize(
                                         22.00)),
                                 child: Container(
-                                    height:
-                                    getVerticalSize(
-                                        68.12),
-                                    width:
-                                    getHorizontalSize(
-                                        320.10),
+                                    height: getVerticalSize(50.00),
+                                    width: getHorizontalSize(270.51),
                                     child: TextFormField(
 
                                         decoration: InputDecoration(
-                                            labelText: "msg_digite_seu_come"
-                                                .tr,
+
+                                            labelText: "msg_digite_seu_come".tr,
                                             labelStyle: AppStyle.textStylePoppinsregular92.copyWith(
                                                 fontSize: getFontSize(9.502008438110352),
                                                 color: ColorConstant.bluegray800),
@@ -391,8 +372,13 @@ class CommentSection extends StatelessWidget{
                                             focusedBorder: UnderlineInputBorder(borderRadius: BorderRadius.circular(getHorizontalSize(5.43)), borderSide: BorderSide(color: ColorConstant.cyan400, width: 2.04)),
                                             filled: true,
                                             fillColor: ColorConstant.gray50,
-                                            isDense: true))))
-                          ])))
+                                            isDense: true)
+                                    )
+                                )
+                            )
+                          ])
+                  )
+              )
             ]));
   }
   
