@@ -1,3 +1,4 @@
+import '../../core/widgets/comment_section.dart';
 import '../article_details_mobile_screen/widgets/article_details_mobile_item_widget.dart';
 import 'controller/article_details_mobile_controller.dart';
 import 'models/article_details_mobile_item_model.dart';
@@ -705,17 +706,17 @@ class ArticleDetailsMobileScreen
                                                                             style: AppStyle.textStyleIBMPlexSerif14.copyWith(fontSize: getFontSize(14), height: 3.00)))),
                                                                 Container(
                                                                     height:
-                                                                        getVerticalSize(
-                                                                            1.00),
+                                                                    getVerticalSize(
+                                                                        1.00),
                                                                     width: getHorizontalSize(
                                                                         270.51),
                                                                     margin: EdgeInsets.only(
                                                                         bottom: getVerticalSize(
                                                                             10.00)),
                                                                     decoration:
-                                                                        BoxDecoration(
-                                                                            color:
-                                                                                ColorConstant.blue700))
+                                                                    BoxDecoration(
+                                                                        color:
+                                                                        ColorConstant.blue700))
                                                               ])),
                                                       Container(
                                                           height:
@@ -749,305 +750,15 @@ class ArticleDetailsMobileScreen
                                                     fit: BoxFit.fill))
                                           ])),
                                   Container(
-                                      height: getVerticalSize(1.00),
-                                      width: getHorizontalSize(371.00),
+                                      alignment: Alignment.center,
+                                      child: CommentSection(),
+
+
                                       margin: EdgeInsets.only(
                                           top: getVerticalSize(92.98),
                                           right: getHorizontalSize(4.00)),
                                       decoration: BoxDecoration(
                                           color: ColorConstant.gray100)),
-                                  Padding(
-                                      padding: EdgeInsets.only(
-                                          left: getHorizontalSize(16.00),
-                                          top: getVerticalSize(48.00),
-                                          right: getHorizontalSize(16.00)),
-                                      child: Column(
-                                          mainAxisSize: MainAxisSize.min,
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.end,
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.start,
-                                          children: [
-                                            Align(
-                                                alignment: Alignment.center,
-                                                child: Padding(
-                                                    padding: EdgeInsets.only(
-                                                        left: getHorizontalSize(
-                                                            7.00),
-                                                        right:
-                                                            getHorizontalSize(
-                                                                4.10)),
-                                                    child: Column(
-                                                        mainAxisSize:
-                                                            MainAxisSize.min,
-                                                        crossAxisAlignment:
-                                                            CrossAxisAlignment
-                                                                .start,
-                                                        mainAxisAlignment:
-                                                            MainAxisAlignment
-                                                                .start,
-                                                        children: [
-                                                          Container(
-                                                              height:
-                                                                  getVerticalSize(
-                                                                      40.88),
-                                                              width:
-                                                                  getHorizontalSize(
-                                                                      309.00),
-                                                              child: Stack(
-                                                                  alignment:
-                                                                      Alignment
-                                                                          .topLeft,
-                                                                  children: [
-                                                                    Align(
-                                                                        alignment:
-                                                                            Alignment
-                                                                                .centerLeft,
-                                                                        child: Container(
-                                                                            width: getHorizontalSize(
-                                                                                309.00),
-                                                                            child: Text("msg_feedbacks_sobre".tr,
-                                                                                maxLines: null,
-                                                                                textAlign: TextAlign.center,
-                                                                                style: AppStyle.textStyleIBMPlexSerif14.copyWith(fontSize: getFontSize(14), height: 3.00)))),
-                                                                    Container(
-                                                                        height: getVerticalSize(
-                                                                            1.00),
-                                                                        width: getHorizontalSize(
-                                                                            309.00),
-                                                                        margin: EdgeInsets.only(
-                                                                            bottom: getVerticalSize(
-                                                                                10.00)),
-                                                                        decoration:
-                                                                            BoxDecoration(color: ColorConstant.blue700))
-                                                                  ])),
-                                                          Container(
-                                                              height:
-                                                                  getVerticalSize(
-                                                                      1.00),
-                                                              width:
-                                                                  getHorizontalSize(
-                                                                      309.00),
-                                                              margin: EdgeInsets
-                                                                  .only(
-                                                                      top: getVerticalSize(
-                                                                          8.12)),
-                                                              decoration:
-                                                                  BoxDecoration(
-                                                                      color: ColorConstant
-                                                                          .blue700))
-                                                        ]))),
-                                            Align(
-                                                alignment: Alignment.center,
-                                                child: Container(
-                                                    height:
-                                                        getVerticalSize(200.00),
-                                                    width: getHorizontalSize(
-                                                        300.00),
-                                                    margin: EdgeInsets.only(
-                                                        left: getHorizontalSize(
-                                                            13.00),
-                                                        top: getVerticalSize(
-                                                            55.00),
-                                                        right:
-                                                            getHorizontalSize(
-                                                                7.10)),
-                                                    child: Stack(
-                                                        alignment:
-                                                            Alignment.topCenter,
-                                                        children: [
-                                                          Align(
-                                                              alignment: Alignment
-                                                                  .centerLeft,
-                                                              child: Container(
-                                                                  height:
-                                                                      getVerticalSize(
-                                                                          200.00),
-                                                                  width:
-                                                                      getHorizontalSize(
-                                                                          300.00),
-                                                                  child: Stack(
-                                                                      alignment:
-                                                                          Alignment
-                                                                              .topLeft,
-                                                                      children: [
-                                                                        Align(
-                                                                            alignment: Alignment
-                                                                                .centerLeft,
-                                                                            child: Container(
-                                                                                height: getVerticalSize(200.00),
-                                                                                width: getHorizontalSize(300.00),
-                                                                                child: SvgPicture.asset(ImageConstant.imgCommentarea1, fit: BoxFit.fill))),
-                                                                        Container(
-                                                                            height:
-                                                                                getVerticalSize(2.59),
-                                                                            width: getHorizontalSize(300.00),
-                                                                            margin: EdgeInsets.only(bottom: getVerticalSize(10.00)),
-                                                                            decoration: BoxDecoration(color: ColorConstant.gray900))
-                                                                      ]))),
-                                                          Align(
-                                                              alignment:
-                                                                  Alignment
-                                                                      .topCenter,
-                                                              child: Padding(
-                                                                  padding: EdgeInsets.only(
-                                                                      left: getHorizontalSize(
-                                                                          13.00),
-                                                                      top: getVerticalSize(
-                                                                          11.01),
-                                                                      right: getHorizontalSize(
-                                                                          13.00),
-                                                                      bottom: getVerticalSize(
-                                                                          11.01)),
-                                                                  child: Column(
-                                                                      mainAxisSize:
-                                                                          MainAxisSize
-                                                                              .min,
-                                                                      crossAxisAlignment:
-                                                                          CrossAxisAlignment
-                                                                              .start,
-                                                                      mainAxisAlignment:
-                                                                          MainAxisAlignment
-                                                                              .start,
-                                                                      children: [
-                                                                        Padding(
-                                                                            padding:
-                                                                                EdgeInsets.only(left: getHorizontalSize(2.00), right: getHorizontalSize(10.00)),
-                                                                            child: Text("msg_t_tulo_do_comen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStyleIBMPlexSerifsemibold15.copyWith(fontSize: getFontSize(15), height: 1.80))),
-                                                                        Container(
-                                                                            width:
-                                                                                getHorizontalSize(263.00),
-                                                                            margin: EdgeInsets.only(left: getHorizontalSize(6.00), top: getVerticalSize(31.65)),
-                                                                            child: Text("msg_aqui_vai_um_com".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.textStyleNunitoSansregular10.copyWith(fontSize: getFontSize(10), height: 2.20))),
-                                                                        Padding(
-                                                                            padding:
-                                                                                EdgeInsets.only(top: getVerticalSize(31.24), right: getHorizontalSize(10.00)),
-                                                                            child: Text("msg_por_jos_da_si".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsregular101.copyWith(fontSize: getFontSize(10)))),
-                                                                        Align(
-                                                                            alignment:
-                                                                                Alignment.center,
-                                                                            child: Padding(
-                                                                                padding: EdgeInsets.only(left: getHorizontalSize(37.00), top: getVerticalSize(8.61), right: getHorizontalSize(37.00)),
-                                                                                child: Row(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.max, children: [
-                                                                                  Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
-                                                                                    Container(height: getVerticalSize(29.09), width: getHorizontalSize(24.00), child: SvgPicture.asset(ImageConstant.imgStarborder2, fit: BoxFit.fill)),
-                                                                                    Padding(padding: EdgeInsets.only(left: getHorizontalSize(8.38), top: getVerticalSize(6.02), bottom: getVerticalSize(6.34)), child: Text("lbl_2".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsmedium10.copyWith(fontSize: getFontSize(10))))
-                                                                                  ]),
-                                                                                  Padding(
-                                                                                      padding: EdgeInsets.only(left: getHorizontalSize(27.53), top: getVerticalSize(3.63), bottom: getVerticalSize(6.07)),
-                                                                                      child: Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
-                                                                                        Container(height: getVerticalSize(19.39), width: getHorizontalSize(16.00), child: SvgPicture.asset(ImageConstant.imgVector1, fit: BoxFit.fill)),
-                                                                                        Padding(padding: EdgeInsets.only(left: getHorizontalSize(15.02), top: getVerticalSize(2.39), bottom: getVerticalSize(0.27)), child: Text("lbl_2".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsmedium10.copyWith(fontSize: getFontSize(10))))
-                                                                                      ])),
-                                                                                  Padding(padding: EdgeInsets.only(left: getHorizontalSize(16.59), top: getVerticalSize(3.84), bottom: getVerticalSize(5.86)), child: Container(height: getVerticalSize(19.39), width: getHorizontalSize(16.00), child: SvgPicture.asset(ImageConstant.imgGroupitem2, fit: BoxFit.fill))),
-                                                                                  Padding(padding: EdgeInsets.only(left: getHorizontalSize(17.00), top: getVerticalSize(3.63), bottom: getVerticalSize(6.07)), child: Container(height: getVerticalSize(19.39), width: getHorizontalSize(16.00), child: SvgPicture.asset(ImageConstant.imgGroupitem3, fit: BoxFit.fill)))
-                                                                                ])))
-                                                                      ])))
-                                                        ]))),
-                                            Align(
-                                                alignment: Alignment.centerLeft,
-                                                child: Padding(
-                                                    padding: EdgeInsets.only(
-                                                        top: getVerticalSize(
-                                                            120.00)),
-                                                    child: Column(
-                                                        mainAxisSize:
-                                                            MainAxisSize.min,
-                                                        mainAxisAlignment:
-                                                            MainAxisAlignment
-                                                                .start,
-                                                        children: [
-                                                          Align(
-                                                              alignment: Alignment
-                                                                  .centerLeft,
-                                                              child: Padding(
-                                                                  padding: EdgeInsets.only(
-                                                                      left: getHorizontalSize(
-                                                                          5.50),
-                                                                      right: getHorizontalSize(
-                                                                          10.00)),
-                                                                  child: Text(
-                                                                      "msg_deixe_seu_comen"
-                                                                          .tr,
-                                                                      overflow:
-                                                                          TextOverflow
-                                                                              .ellipsis,
-                                                                      textAlign:
-                                                                          TextAlign
-                                                                              .left,
-                                                                      style: AppStyle
-                                                                          .textStylePoppinsblack10
-                                                                          .copyWith(
-                                                                              fontSize: getFontSize(10),
-                                                                              letterSpacing: 0.17)))),
-                                                          Align(
-                                                              alignment:
-                                                                  Alignment
-                                                                      .center,
-                                                              child: Container(
-                                                                  height:
-                                                                      getVerticalSize(
-                                                                          55.00),
-                                                                  width:
-                                                                      getHorizontalSize(
-                                                                          76.30),
-                                                                  margin: EdgeInsets.only(
-                                                                      left: getHorizontalSize(
-                                                                          125.00),
-                                                                      top: getVerticalSize(
-                                                                          22.00),
-                                                                      right: getHorizontalSize(
-                                                                          118.80)),
-                                                                  child: Stack(
-                                                                      alignment:
-                                                                          Alignment
-                                                                              .center,
-                                                                      children: [
-                                                                        Align(
-                                                                            alignment: Alignment
-                                                                                .center,
-                                                                            child: Container(
-                                                                                height: getVerticalSize(55.00),
-                                                                                width: getHorizontalSize(75.90),
-                                                                                margin: EdgeInsets.only(left: getHorizontalSize(0.40), right: getHorizontalSize(0.00)),
-                                                                                decoration: BoxDecoration(color: ColorConstant.teal200))),
-                                                                        Align(
-                                                                            alignment:
-                                                                                Alignment.center,
-                                                                            child: GestureDetector(
-                                                                                onTap: () {
-                                                                                  onTapImgLogo();
-                                                                                },
-                                                                                child: Padding(padding: EdgeInsets.only(right: getHorizontalSize(0.30)), child: Container(height: getVerticalSize(55.00), width: getHorizontalSize(76.00), child: SvgPicture.asset(ImageConstant.imgLogo, fit: BoxFit.fill)))))
-                                                                      ]))),
-                                                          Padding(
-                                                              padding: EdgeInsets.only(
-                                                                  top: getVerticalSize(
-                                                                      22.00)),
-                                                              child: Container(
-                                                                  height:
-                                                                      getVerticalSize(
-                                                                          68.12),
-                                                                  width:
-                                                                      getHorizontalSize(
-                                                                          320.10),
-                                                                  child: TextFormField(
-                                                                      controller:
-                                                                          controller
-                                                                              .textareaFocuController1,
-                                                                      decoration: InputDecoration(
-                                                                          labelText: "msg_digite_seu_come"
-                                                                              .tr,
-                                                                          labelStyle: AppStyle.textStylePoppinsregular92.copyWith(
-                                                                              fontSize: getFontSize(9.502008438110352),
-                                                                              color: ColorConstant.bluegray800),
-                                                                          enabledBorder: UnderlineInputBorder(borderRadius: BorderRadius.circular(getHorizontalSize(5.43)), borderSide: BorderSide(color: ColorConstant.cyan400, width: 2.04)),
-                                                                          focusedBorder: UnderlineInputBorder(borderRadius: BorderRadius.circular(getHorizontalSize(5.43)), borderSide: BorderSide(color: ColorConstant.cyan400, width: 2.04)),
-                                                                          filled: true,
-                                                                          fillColor: ColorConstant.gray50,
-                                                                          isDense: true))))
-                                                        ])))
-                                          ]))
                                 ])))
                           ]))),
               Container(
