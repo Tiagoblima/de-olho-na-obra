@@ -448,7 +448,6 @@ class InfoSection extends StatelessWidget{
                                                   )
                                               )
                                           ),
-
                                           Align(
                                               alignment:
                                               Alignment.center,

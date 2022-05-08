@@ -345,7 +345,7 @@ class CommentSection extends StatelessWidget{
                                             right: getHorizontalSize(
                                                 107.50)),
                                         child: Container(
-                                            height: getVerticalSize(33.37),
+                                            height: getVerticalSize(48.50),
                                             width: getHorizontalSize(48.50),
                                             child: SvgPicture.asset(ImageConstant.imgSiginbutton, fit: BoxFit.fill)
                                         )

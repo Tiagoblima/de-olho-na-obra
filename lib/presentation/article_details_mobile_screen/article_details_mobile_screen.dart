@@ -275,34 +275,20 @@ class ArticleDetailsMobileScreen
                                                       Padding(
                                                           padding: EdgeInsets.only(
                                                               left:
-                                                                  getHorizontalSize(
-                                                                      13.19),
+                                                                  getHorizontalSize(13.19),
                                                               top:
-                                                                  getVerticalSize(
-                                                                      18.40),
+                                                                  getVerticalSize(18.40),
                                                               bottom:
-                                                                  getVerticalSize(
-                                                                      5.87)),
+                                                                  getVerticalSize(5.87)),
                                                           child: Image.asset(
-                                                              ImageConstant
-                                                                  .imgNewsimage,
-                                                              height:
-                                                                  getVerticalSize(
-                                                                      113.78),
-                                                              width:
-                                                                  getHorizontalSize(
-                                                                      134.58),
-                                                              fit:
-                                                                  BoxFit.fill)),
+                                                              ImageConstant.imgNewsimage,
+                                                              height: getVerticalSize(113.78),
+                                                              width: getHorizontalSize(134.58),
+                                                              fit: BoxFit.fill)),
                                                       Column(
-                                                          mainAxisSize:
-                                                              MainAxisSize.min,
-                                                          crossAxisAlignment:
-                                                              CrossAxisAlignment
-                                                                  .start,
-                                                          mainAxisAlignment:
-                                                              MainAxisAlignment
-                                                                  .start,
+                                                          mainAxisSize: MainAxisSize.min,
+                                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                                          mainAxisAlignment: MainAxisAlignment.start,
                                                           children: [
                                                             Align(
                                                                 alignment:
