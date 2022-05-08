@@ -14,6 +14,7 @@ variables.env
 .buildlog/
 .svn/
 
+pubspec.lock
 # IntelliJ related
 *.iml
 *.ipr
