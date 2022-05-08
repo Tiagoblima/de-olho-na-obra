@@ -1,7 +1,5 @@
 import '../../core/widgets/comment_section.dart';
-import '../article_details_mobile_screen/widgets/article_details_mobile_item_widget.dart';
 import 'controller/article_details_mobile_controller.dart';
-import 'models/article_details_mobile_item_model.dart';
 import 'package:dono/core/app_export.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -158,7 +156,7 @@ class ArticleDetailsMobileScreen
                                                             left: getHorizontalSize(
                                                                 294.42),
                                                             top: getVerticalSize(
-                                                                10.89),
+                                                                20.89),
                                                             right:
                                                                 getHorizontalSize(
                                                                     9.95)),
@@ -221,312 +219,247 @@ class ArticleDetailsMobileScreen
                                                                   margin: EdgeInsets.only(
                                                                       left: getHorizontalSize(
                                                                           16.91)),
-                                                                  child: Text(
-                                                                      "msg_em_olinda_dren"
-                                                                          .tr,
-                                                                      maxLines:
-                                                                          null,
-                                                                      textAlign:
-                                                                          TextAlign
-                                                                              .left,
-                                                                      style: AppStyle
-                                                                          .textStyleIBMPlexSerifsemibold24
-                                                                          .copyWith(
-                                                                              fontSize: getFontSize(24))))
+                                                                  child: Text("msg_em_olinda_dren".tr,
+                                                                      maxLines: null,
+                                                                      textAlign: TextAlign.left,
+                                                                      style: AppStyle.textStyleIBMPlexSerifsemibold24.copyWith(fontSize: getFontSize(24))))
                                                             ]))),
-                                                Align(
-                                                    alignment:
-                                                        Alignment.centerLeft,
-                                                    child: Padding(
+
+                                              ]))),
+                                          Align(
+                                              alignment:
+                                              Alignment
+                                                  .topCenter,
+                                              child: Container(
+                                                  width: getHorizontalSize(365.00),
+                                                  margin: EdgeInsets.only(right: getHorizontalSize(7.00), top: getHorizontalSize(15.00),bottom: getVerticalSize(5.00)),
+                                                  child: RichText(
+                                                      text: TextSpan(children: [
+                                                        TextSpan(
+                                                            text: "lbl_no_dia".tr,
+                                                            style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47)),
+                                                        TextSpan(
+                                                            text: "lbl_24_11_2021".tr,
+                                                            style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
+                                                        TextSpan(
+                                                            text: "msg_iniciou_a_obra".tr,
+                                                            style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47)),
+                                                        TextSpan(
+                                                            text: "lbl_180_dias".tr,
+                                                            style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
+                                                        TextSpan(
+                                                            text: "msg_e_est_sob_a_re".tr,
+                                                            style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47)),
+                                                        TextSpan(
+                                                            text: "lbl_prefeitura_de".tr,
+                                                            style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
+                                                        TextSpan(
+                                                            text: "lbl_olinda".tr,
+                                                            style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w800, height: 1.47)),
+                                                        TextSpan(
+                                                            text: "msg_o_or_amento_i".tr,
+                                                            style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47)),
+                                                        TextSpan(
+                                                            text: "lbl_r_10000_00".tr,
+                                                            style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
+                                                        TextSpan(
+                                                            text: "msg_reais_e_j_fora".tr,
+                                                            style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47)),
+                                                        TextSpan(
+                                                            text: "msg_r_5000_00_reai".tr,
+                                                            style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
+                                                        TextSpan(
+                                                            text: "lbl".tr,
+                                                            style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47))
+                                                      ]),
+                                                      textAlign: TextAlign.left))),
+                                          Align(
+                                              alignment:
+                                              Alignment.topLeft,
+                                              child: Padding(
+                                                padding: EdgeInsets.only(
+                                                    left: getHorizontalSize(4.00),
+                                                    top: getVerticalSize(5.00),
+                                                    right: getHorizontalSize(10.00),
+                                                    bottom: getVerticalSize(40.00)),
+
+                                              child: Column(
+                                                  mainAxisSize: MainAxisSize.min,
+                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                  mainAxisAlignment: MainAxisAlignment.start,
+                                                  children:[
+                                                    Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
+                                                      Padding(padding:  EdgeInsets.only(left: getHorizontalSize(3.00,), bottom: getVerticalSize(3.00),),
+                                                          child:
+                                                          Container(height: getSize(20.00), width: getSize(20.00),
+                                                              child: Icon(
+                                                                Icons.access_alarm ,
+                                                                color: Colors.black,
+                                                                size: 24.0,
+                                                                semanticLabel: 'Text to announce in accessibility modes',
+                                                              )
+                                                          )
+                                                      ),
+                                                Padding(padding: EdgeInsets.only(left: getHorizontalSize(15.00,), bottom: getVerticalSize(3.00), top: getVerticalSize(10.00,)),
+                                                     child: Container(
+
+                                                          child: RichText(
+                                                              text: TextSpan(children: [
+                                                                TextSpan(text: "lbl_prazo2".tr, style: TextStyle(color: ColorConstant.gray901, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
+                                                                TextSpan(text: ' ', style: TextStyle(color: ColorConstant.gray901, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47))
+                                                              ]),
+                                                              textAlign: TextAlign.left)),
+                                                  ),
+                                                      Padding(
                                                         padding: EdgeInsets.only(
-                                                            left:
-                                                                getHorizontalSize(
-                                                                    6.96),
-                                                            top:
-                                                                getVerticalSize(
-                                                                    20.11),
-                                                            right:
-                                                                getHorizontalSize(
-                                                                    10.00)),
+                                                          left: getHorizontalSize(10.00,),),
+                                                        child: Text(
+                                                          "180 dias".tr,
+                                                          overflow: TextOverflow.ellipsis,
+                                                          textAlign: TextAlign.left,
+                                                          style: AppStyle.textStyleNunitoSansregular102.copyWith(
+                                                            fontSize: getFontSize(12,),
+                                                            height: 2.20,),),
+                                                      ),
+                                                    ]),
+                                                    Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
+                                                      Padding(padding: EdgeInsets.only(left: getHorizontalSize(3.00,), bottom: getVerticalSize(3.00), top: getVerticalSize(5.00,)),
+                                                          child:
+                                                          Container(height: getSize(20.00), width: getSize(20.00),
+                                                              child: Icon(
+                                                                Icons.timelapse ,
+                                                                color: Colors.black,
+                                                                size: 24.0,
+                                                                semanticLabel: 'Text to announce in accessibility modes',
+                                                              )
+                                                          )
+                                                      ),
+                                                      Padding(padding: EdgeInsets.only(left: getHorizontalSize(15.00,), bottom: getVerticalSize(3.00), top: getVerticalSize(10.00,)),
+                                                      child: Container(
+
+                                                          child: RichText(
+                                                              text: TextSpan(children: [
+                                                                TextSpan(text: "Atrasada:".tr, style: TextStyle(color: ColorConstant.gray901, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
+                                                                TextSpan(text: ' ', style: TextStyle(color: ColorConstant.gray901, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47))
+                                                              ]),
+                                                              textAlign: TextAlign.left)),),
+                                                      Padding(
+                                                        padding: EdgeInsets.only(
+                                                          left: getHorizontalSize(10.00,),),
+                                                        child: Text(
+                                                          "Não".tr,
+                                                          overflow: TextOverflow.ellipsis,
+                                                          textAlign: TextAlign.left,
+                                                          style: AppStyle.textStyleNunitoSansregular102.copyWith(
+                                                            fontSize: getFontSize(12,),
+                                                            height: 2.20,),),
+                                                      ),
+                                                    ]),
+                                                    Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
+                                                      Padding(padding: EdgeInsets.only(left: getHorizontalSize(3.00,), bottom: getVerticalSize(3.00), top: getVerticalSize(5.00,)),
+                                                          child:
+                                                          Container(height: getSize(20.00), width: getSize(20.00),
+                                                              child: Icon(
+                                                                Icons.monetization_on ,
+                                                                color: Colors.black,
+                                                                size: 24.0,
+                                                                semanticLabel: 'Text to announce in accessibility modes',
+                                                              )
+                                                          )
+                                                      ),
+                                                      Padding(padding: EdgeInsets.only(left: getHorizontalSize(15.00,), bottom: getVerticalSize(3.00), top: getVerticalSize(10.00,)),
                                                         child: Container(
-                                                            height:
-                                                                getVerticalSize(
-                                                                    75.00),
-                                                            width:
-                                                                getHorizontalSize(
-                                                                    103.45),
-                                                            child: SvgPicture.asset(
-                                                                ImageConstant
-                                                                    .imgG2900,
-                                                                fit: BoxFit.fill))))
-                                              ]))),
-                                  Align(
-                                      alignment: Alignment.center,
-                                      child: Container(
-                                          height: getVerticalSize(452.00),
-                                          width: getHorizontalSize(372.00),
-                                          margin: EdgeInsets.only(
-                                              left: getHorizontalSize(3.00),
-                                              top: getVerticalSize(35.00)),
-                                          child: Stack(
-                                              alignment: Alignment.bottomLeft,
-                                              children: [
-                                                Align(
-                                                    alignment:
-                                                        Alignment.centerLeft,
-                                                    child: Container(
-                                                        height: getVerticalSize(
-                                                            452.00),
-                                                        width:
-                                                            getHorizontalSize(
-                                                                372.00),
-                                                        child: Stack(
-                                                            alignment: Alignment
-                                                                .topRight,
-                                                            children: [
-                                                              Align(
-                                                                  alignment:
-                                                                      Alignment
-                                                                          .center,
-                                                                  child: Padding(
-                                                                      padding: EdgeInsets.only(
-                                                                          left: getHorizontalSize(
-                                                                              3.00),
-                                                                          top: getVerticalSize(
-                                                                              10.00),
-                                                                          right: getHorizontalSize(
-                                                                              2.00)),
-                                                                      child: Container(
-                                                                          height: getVerticalSize(
-                                                                              442.00),
-                                                                          width: getHorizontalSize(
-                                                                              367.00),
-                                                                          child: SvgPicture.asset(
-                                                                              ImageConstant.imgRectangle185,
-                                                                              fit: BoxFit.fill)))),
-                                                              Align(
-                                                                  alignment:
-                                                                      Alignment
-                                                                          .topRight,
-                                                                  child: Padding(
-                                                                      padding: EdgeInsets.only(
-                                                                          left: getHorizontalSize(
-                                                                              10.00),
-                                                                          top: getVerticalSize(
-                                                                              135.00),
-                                                                          bottom: getVerticalSize(
-                                                                              135.00)),
-                                                                      child: Container(
-                                                                          height: getVerticalSize(
-                                                                              68.00),
-                                                                          width: getHorizontalSize(
-                                                                              86.00),
-                                                                          child: SvgPicture.asset(
-                                                                              ImageConstant.imgVector3,
-                                                                              fit: BoxFit.fill)))),
-                                                              Align(
-                                                                  alignment:
-                                                                      Alignment
-                                                                          .topCenter,
-                                                                  child: Container(
-                                                                      width: getHorizontalSize(365.00),
-                                                                      margin: EdgeInsets.only(right: getHorizontalSize(7.00), bottom: getVerticalSize(10.00)),
-                                                                      child: RichText(
-                                                                          text: TextSpan(children: [
-                                                                            TextSpan(
-                                                                                text: "lbl_no_dia".tr,
-                                                                                style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47)),
-                                                                            TextSpan(
-                                                                                text: "lbl_24_11_2021".tr,
-                                                                                style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
-                                                                            TextSpan(
-                                                                                text: "msg_iniciou_a_obra".tr,
-                                                                                style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47)),
-                                                                            TextSpan(
-                                                                                text: "lbl_180_dias".tr,
-                                                                                style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
-                                                                            TextSpan(
-                                                                                text: "msg_e_est_sob_a_re".tr,
-                                                                                style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47)),
-                                                                            TextSpan(
-                                                                                text: "lbl_prefeitura_de".tr,
-                                                                                style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
-                                                                            TextSpan(
-                                                                                text: "lbl_olinda".tr,
-                                                                                style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w800, height: 1.47)),
-                                                                            TextSpan(
-                                                                                text: "msg_o_or_amento_i".tr,
-                                                                                style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47)),
-                                                                            TextSpan(
-                                                                                text: "lbl_r_10000_00".tr,
-                                                                                style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
-                                                                            TextSpan(
-                                                                                text: "msg_reais_e_j_fora".tr,
-                                                                                style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47)),
-                                                                            TextSpan(
-                                                                                text: "msg_r_5000_00_reai".tr,
-                                                                                style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
-                                                                            TextSpan(
-                                                                                text: "lbl".tr,
-                                                                                style: TextStyle(color: ColorConstant.gray900, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47))
-                                                                          ]),
-                                                                          textAlign: TextAlign.left)))
-                                                            ]))),
-                                                Align(
-                                                    alignment:
-                                                        Alignment.bottomLeft,
-                                                    child: Padding(
+
+                                                            child: RichText(
+                                                                text: TextSpan(children: [
+                                                                  TextSpan(text: "Orçamento:".tr, style: TextStyle(color: ColorConstant.gray901, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
+                                                                  TextSpan(text: ' ', style: TextStyle(color: ColorConstant.gray901, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47))
+                                                                ]),
+                                                                textAlign: TextAlign.left)),),
+                                                      Padding(
                                                         padding: EdgeInsets.only(
-                                                            left:
-                                                                getHorizontalSize(
-                                                                    4.00),
-                                                            top:
-                                                                getVerticalSize(
-                                                                    40.00),
-                                                            right:
-                                                                getHorizontalSize(
-                                                                    10.00),
-                                                            bottom:
-                                                                getVerticalSize(
-                                                                    40.00)),
-                                                        child: Column(
-                                                            mainAxisSize:
-                                                                MainAxisSize
-                                                                    .min,
-                                                            crossAxisAlignment:
-                                                                CrossAxisAlignment
-                                                                    .start,
-                                                            mainAxisAlignment:
-                                                                MainAxisAlignment
-                                                                    .start,
-                                                            children: [
-                                                              Column(
-                                                                  mainAxisSize:
-                                                                      MainAxisSize
-                                                                          .min,
-                                                                  crossAxisAlignment:
-                                                                      CrossAxisAlignment
-                                                                          .start,
-                                                                  mainAxisAlignment:
-                                                                      MainAxisAlignment
-                                                                          .start,
-                                                                  children: [
-                                                                    Padding(
-                                                                        padding: EdgeInsets.only(
-                                                                            left: getHorizontalSize(
-                                                                                5.84),
-                                                                            right: getHorizontalSize(
-                                                                                10.00)),
-                                                                        child: Row(
-                                                                            mainAxisAlignment:
-                                                                                MainAxisAlignment.start,
-                                                                            crossAxisAlignment: CrossAxisAlignment.end,
-                                                                            mainAxisSize: MainAxisSize.max,
-                                                                            children: [
-                                                                              Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
-                                                                                Padding(padding: EdgeInsets.only(bottom: getVerticalSize(3.00)), child: Container(height: getSize(20.00), width: getSize(20.00), child: SvgPicture.asset(ImageConstant.imgIcon, fit: BoxFit.fill))),
-                                                                                Container(
-                                                                                    margin: EdgeInsets.only(left: getHorizontalSize(5.16), top: getVerticalSize(2.00)),
-                                                                                    child: RichText(
-                                                                                        text: TextSpan(children: [
-                                                                                          TextSpan(text: "lbl_prazo2".tr, style: TextStyle(color: ColorConstant.gray901, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
-                                                                                          TextSpan(text: ' ', style: TextStyle(color: ColorConstant.gray901, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47))
-                                                                                        ]),
-                                                                                        textAlign: TextAlign.left))
-                                                                              ]),
-                                                                              Padding(padding: EdgeInsets.only(left: getHorizontalSize(82.00), top: getVerticalSize(10.00), bottom: getVerticalSize(1.00)), child: Text("lbl_180_dias".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStyleNunitoSansregular102.copyWith(fontSize: getFontSize(10), height: 2.20)))
-                                                                            ])),
-                                                                    Padding(
-                                                                        padding: EdgeInsets.only(
-                                                                            top:
-                                                                                getVerticalSize(22.91),
-                                                                            right: getHorizontalSize(10.00)),
-                                                                        child: Obx(() => ListView.builder(
-                                                                            physics: NeverScrollableScrollPhysics(),
-                                                                            shrinkWrap: true,
-                                                                            itemCount: controller.articleDetailsMobileModelObj.value.articleDetailsMobileItemList.length,
-                                                                            itemBuilder: (context, index) {
-                                                                              ArticleDetailsMobileItemModel model = controller.articleDetailsMobileModelObj.value.articleDetailsMobileItemList[index];
-                                                                              return ArticleDetailsMobileItemWidget(model);
-                                                                            }))),
-                                                                    Padding(
-                                                                        padding: EdgeInsets.only(
-                                                                            left: getHorizontalSize(
-                                                                                1.00),
-                                                                            top: getVerticalSize(
-                                                                                23.00),
-                                                                            right: getHorizontalSize(
-                                                                                10.00)),
-                                                                        child: Row(
-                                                                            mainAxisAlignment:
-                                                                                MainAxisAlignment.start,
-                                                                            crossAxisAlignment: CrossAxisAlignment.center,
-                                                                            mainAxisSize: MainAxisSize.max,
-                                                                            children: [
-                                                                              Padding(padding: EdgeInsets.only(bottom: getVerticalSize(1.00)), child: Container(height: getSize(20.00), width: getSize(20.00), child: SvgPicture.asset(ImageConstant.imgIcon4, fit: BoxFit.fill))),
-                                                                              Container(
-                                                                                  height: getVerticalSize(21.00),
-                                                                                  width: getHorizontalSize(234.00),
-                                                                                  margin: EdgeInsets.only(left: getHorizontalSize(10.00)),
-                                                                                  child: Stack(alignment: Alignment.bottomLeft, children: [
-                                                                                    Align(alignment: Alignment.topRight, child: Padding(padding: EdgeInsets.only(left: getHorizontalSize(10.00), bottom: getVerticalSize(10.00)), child: Text("msg_prefeitura_de_o".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStyleNunitoSansregular101.copyWith(fontSize: getFontSize(10), height: 2.20)))),
-                                                                                    Align(alignment: Alignment.bottomLeft, child: Padding(padding: EdgeInsets.only(top: getVerticalSize(10.00), right: getHorizontalSize(10.00)), child: Text("msg_respons_vel_pel".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStyleNunitoSansbold12.copyWith(fontSize: getFontSize(12), height: 1.83))))
-                                                                                  ]))
-                                                                            ]))
-                                                                  ]),
-                                                              Padding(
-                                                                  padding: EdgeInsets.only(
-                                                                      top: getVerticalSize(
-                                                                          33.00)),
-                                                                  child: Row(
-                                                                      mainAxisAlignment:
-                                                                          MainAxisAlignment
-                                                                              .end,
-                                                                      crossAxisAlignment:
-                                                                          CrossAxisAlignment
-                                                                              .start,
-                                                                      mainAxisSize:
-                                                                          MainAxisSize
-                                                                              .max,
-                                                                      children: [
-                                                                        Padding(
-                                                                            padding:
-                                                                                EdgeInsets.only(left: getHorizontalSize(73.00), bottom: getVerticalSize(4.81)),
-                                                                            child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.center, mainAxisAlignment: MainAxisAlignment.start, children: [
-                                                                              Align(alignment: Alignment.centerLeft, child: Container(height: getVerticalSize(20.52), width: getHorizontalSize(25.00), child: SvgPicture.asset(ImageConstant.imgThumbup, fit: BoxFit.fill))),
-                                                                              Align(alignment: Alignment.centerLeft, child: Padding(padding: EdgeInsets.only(left: getHorizontalSize(6.33), top: getVerticalSize(1.25), right: getHorizontalSize(9.72), bottom: getVerticalSize(0.01)), child: Text("lbl_2".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsregular13.copyWith(fontSize: getFontSize(13)))))
-                                                                            ])),
-                                                                        Padding(
-                                                                            padding: EdgeInsets.only(
-                                                                                left: getHorizontalSize(21.35),
-                                                                                top: getVerticalSize(3.00),
-                                                                                bottom: getVerticalSize(1.24)),
-                                                                            child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.end, mainAxisAlignment: MainAxisAlignment.start, children: [
-                                                                              Align(alignment: Alignment.centerLeft, child: Container(height: getVerticalSize(20.00), width: getHorizontalSize(25.00), child: SvgPicture.asset(ImageConstant.imgVector4, fit: BoxFit.fill))),
-                                                                              Padding(padding: EdgeInsets.only(left: getHorizontalSize(6.95), top: getVerticalSize(2.53), right: getHorizontalSize(1.47), bottom: getVerticalSize(0.01)), child: Text("lbl_28".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsregular13.copyWith(fontSize: getFontSize(13))))
-                                                                            ])),
-                                                                        Padding(
-                                                                            padding:
-                                                                                EdgeInsets.only(left: getHorizontalSize(29.52), top: getVerticalSize(3.00)),
-                                                                            child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.end, mainAxisAlignment: MainAxisAlignment.start, children: [
-                                                                              Align(alignment: Alignment.centerLeft, child: Container(height: getVerticalSize(15.04), width: getHorizontalSize(25.00), child: SvgPicture.asset(ImageConstant.imgVector5, fit: BoxFit.fill))),
-                                                                              Padding(padding: EdgeInsets.only(left: getHorizontalSize(9.16), top: getVerticalSize(8.11), right: getHorizontalSize(3.41)), child: Text("lbl_21".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsregular13.copyWith(fontSize: getFontSize(13))))
-                                                                            ])),
-                                                                        Padding(
-                                                                            padding: EdgeInsets.only(
-                                                                                left: getHorizontalSize(24.13),
-                                                                                top: getVerticalSize(2.00),
-                                                                                bottom: getVerticalSize(16.00)),
-                                                                            child: Container(height: getVerticalSize(20.00), width: getHorizontalSize(25.00), child: SvgPicture.asset(ImageConstant.imgGroupitem4, fit: BoxFit.fill))),
-                                                                        Padding(
-                                                                            padding: EdgeInsets.only(
-                                                                                left: getHorizontalSize(21.00),
-                                                                                top: getVerticalSize(3.00),
-                                                                                bottom: getVerticalSize(15.00)),
-                                                                            child: Container(height: getVerticalSize(20.00), width: getHorizontalSize(25.00), child: SvgPicture.asset(ImageConstant.imgGroupitem5, fit: BoxFit.fill)))
-                                                                      ]))
-                                                            ])))
-                                              ]))),
+                                                          left: getHorizontalSize(10.00,),),
+                                                        child: Text(
+                                                          "R\$ 100000".tr,
+                                                          overflow: TextOverflow.ellipsis,
+                                                          textAlign: TextAlign.left,
+                                                          style: AppStyle.textStyleNunitoSansregular102.copyWith(
+                                                            fontSize: getFontSize(12,),
+                                                            height: 2.20,),),
+                                                      ),
+                                                    ]),
+                                                    Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
+                                                      Padding(padding: EdgeInsets.only(left: getHorizontalSize(3.00,), bottom: getVerticalSize(3.00), top: getVerticalSize(5.00,)),
+                                                          child:
+                                                          Container(height: getSize(20.00), width: getSize(20.00),
+                                                              child: Icon(
+                                                                Icons.money_off_csred_outlined ,
+                                                                color: Colors.black,
+                                                                size: 24.0,
+                                                                semanticLabel: 'Text to announce in accessibility modes',
+                                                              )
+                                                          )
+                                                      ),
+                                                      Padding(padding: EdgeInsets.only(left: getHorizontalSize(15.00,), bottom: getVerticalSize(3.00), top: getVerticalSize(10.00,)),
+                                                        child: Container(
+
+                                                            child: RichText(
+                                                                text: TextSpan(children: [
+                                                                  TextSpan(text: "Gasto até agora: ".tr, style: TextStyle(color: ColorConstant.gray901, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
+                                                                  TextSpan(text: ' ', style: TextStyle(color: ColorConstant.gray901, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47))
+                                                                ]),
+                                                                textAlign: TextAlign.left)),),
+                                                      Padding(
+                                                        padding: EdgeInsets.only(
+                                                          left: getHorizontalSize(10.00,),),
+                                                        child: Text(
+                                                          "R\$ 10000".tr,
+                                                          overflow: TextOverflow.ellipsis,
+                                                          textAlign: TextAlign.left,
+                                                          style: AppStyle.textStyleNunitoSansregular102.copyWith(
+                                                            fontSize: getFontSize(12,),
+                                                            height: 2.20,),),
+                                                      ),
+                                                    ]),
+                                                    Row(crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: [
+                                                      Padding(padding: EdgeInsets.only(left: getHorizontalSize(3.00,), bottom: getVerticalSize(3.00), top: getVerticalSize(5.00,)),
+                                                          child:
+                                                          Container(height: getSize(20.00), width: getSize(20.00),
+                                                              child: Icon(
+                                                                Icons.person_add_alt_1_outlined ,
+                                                                color: Colors.black,
+                                                                size: 24.0,
+                                                                semanticLabel: 'Text to announce in accessibility modes',
+                                                              )
+                                                          )
+                                                      ),
+                                                      Padding(padding: EdgeInsets.only(left: getHorizontalSize(15.00,), bottom: getVerticalSize(3.00), top: getVerticalSize(10.00,)),
+                                                        child: Container(
+
+                                                            child: RichText(
+                                                                text: TextSpan(children: [
+                                                                  TextSpan(text: "Responsável: ".tr, style: TextStyle(color: ColorConstant.gray901, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w700, height: 1.47)),
+                                                                  TextSpan(text: ' ', style: TextStyle(color: ColorConstant.gray901, fontSize: getFontSize(15), fontFamily: 'Nunito Sans', fontWeight: FontWeight.w400, height: 1.47))
+                                                                ]),
+                                                                textAlign: TextAlign.left)),),
+                                                      Padding(
+                                                        padding: EdgeInsets.only(
+                                                          left: getHorizontalSize(10.00,),),
+                                                        child: Text(
+                                                          "Prefeitura de Olinda".tr,
+                                                          overflow: TextOverflow.ellipsis,
+                                                          textAlign: TextAlign.left,
+                                                          style: AppStyle.textStyleNunitoSansregular102.copyWith(
+                                                            fontSize: getFontSize(12,),
+                                                            height: 2.20,),),
+                                                      ),
+                                                    ]),
+                                                  ]
+                                          )
+                                              )
+                                          ),
+
+
                                   Padding(
                                       padding: EdgeInsets.only(
                                           top: getVerticalSize(74.00)),
