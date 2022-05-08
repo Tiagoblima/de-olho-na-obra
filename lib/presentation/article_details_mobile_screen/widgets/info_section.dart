@@ -97,6 +97,79 @@ class _CommentInputWidgetState extends State<CommentInputWidget> {
     );
   }
 }
+// stores ExpansionPanel state information
+class Item {
+  Item({
+    required this.expandedValue,
+    required this.headerValue,
+    this.isExpanded = false,
+    this.contrato = 'Empresa X',
+    this.cnpj = '131323'
+  });
+
+  String expandedValue;
+  String headerValue;
+  String contrato;
+  String cnpj;
+  bool isExpanded;
+}
+
+List<Item> generateItems(int numberOfItems) {
+  return List<Item>.generate(numberOfItems, (int index) {
+    return Item(
+      headerValue: 'Empresa Contrada',
+      expandedValue: 'Multi Construção LTDA',
+        contrato: 'Contrato: 12310-9',
+      cnpj:'CNPJ: 12312.3123.12/3'
+    );
+  });
+}
+
+class Panel extends StatefulWidget {
+  const Panel({Key? key}) : super(key: key);
+
+  @override
+  State<Panel> createState() => _PanelState();
+}
+
+class _PanelState extends State<Panel> {
+  final List<Item> _data = generateItems(1);
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Container(
+        child: _buildPanel(),
+      ),
+    );
+  }
+
+  Widget _buildPanel() {
+    return ExpansionPanelList(
+      expansionCallback: (int index, bool isExpanded) {
+        setState(() {
+          _data[index].isExpanded = !isExpanded;
+        });
+      },
+      children: _data.map<ExpansionPanel>((Item item) {
+        return ExpansionPanel(
+          headerBuilder: (BuildContext context, bool isExpanded) {
+            return ListTile(
+              title: Text(item.headerValue),
+            );
+          },
+          body: ListTile(
+              title: Text(item.expandedValue),
+              subtitle: Text(item.contrato + '\n' + item.cnpj),
+
+
+              ),
+          isExpanded: item.isExpanded,
+        );
+      }).toList(),
+    );
+  }
+}
 
 class InfoSection extends StatelessWidget{
   @override
@@ -375,6 +448,18 @@ class InfoSection extends StatelessWidget{
                                                   )
                                               )
                                           ),
+
+                                          Align(
+                                              alignment:
+                                              Alignment.center,
+                                              child:Padding(
+                                                  padding: EdgeInsets.only(
+                                                      left: getHorizontalSize(41.07),
+                                                      top: getVerticalSize(20.95),
+                                                      right: getHorizontalSize(41.07)),
+                                                  child: Panel()
+                                              )
+                                          ),
                                           Align(
                                               alignment:
                                               Alignment.center,
@@ -398,7 +483,7 @@ class InfoSection extends StatelessWidget{
                                                     Padding(padding: EdgeInsets.only(left: getHorizontalSize(17.00), top: getVerticalSize(3.00), bottom: getVerticalSize(5.00)), child: Container(height: getSize(16.00), width: getSize(16.00), child: SvgPicture.asset(ImageConstant.imgGroupitem1, fit: BoxFit.fill)))
                                                   ])
                                               )
-                                          )
+                                          ),
                                         ])
                                 )
                             )
