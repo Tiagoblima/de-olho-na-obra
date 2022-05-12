@@ -106,6 +106,7 @@ class CommentSection extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
+
     return    Padding(
         padding: EdgeInsets.only(
             left: getHorizontalSize(15.00),
@@ -338,12 +339,9 @@ class CommentSection extends StatelessWidget{
                                     },
                                     child: Padding(
                                         padding: EdgeInsets.only(
-                                            left: getHorizontalSize(
-                                                107.50),
-                                            top: getVerticalSize(
-                                                25.95),
-                                            right: getHorizontalSize(
-                                                107.50)),
+                                            left: getHorizontalSize(107.50),
+                                            top: getVerticalSize(25.95),
+                                            right: getHorizontalSize(107.50)),
                                         child: Container(
                                             height: getVerticalSize(48.50),
                                             width: getHorizontalSize(48.50),
@@ -353,29 +351,49 @@ class CommentSection extends StatelessWidget{
                                 )
                             ),
 
-                            Padding(
-                                padding: EdgeInsets.only(
-                                    top: getVerticalSize(
-                                        22.00)),
-                                child: Container(
-                                    height: getVerticalSize(50.00),
-                                    width: getHorizontalSize(270.51),
-                                    child: TextFormField(
+                           Align(
+                             alignment: Alignment.center,
+                             child: Row(children: [
+                               Padding(
+                                   padding: EdgeInsets.only(
+                                       top: getVerticalSize(
+                                           22.00)),
+                                   child: Container(
+                                       height: getVerticalSize(50.00),
+                                       width: getHorizontalSize(250.51),
+                                       child: TextFormField(
 
-                                        decoration: InputDecoration(
+                                           decoration: InputDecoration(
 
-                                            labelText: "msg_digite_seu_come".tr,
-                                            labelStyle: AppStyle.textStylePoppinsregular92.copyWith(
-                                                fontSize: getFontSize(9.502008438110352),
-                                                color: ColorConstant.bluegray800),
-                                            enabledBorder: UnderlineInputBorder(borderRadius: BorderRadius.circular(getHorizontalSize(5.43)), borderSide: BorderSide(color: ColorConstant.cyan400, width: 2.04)),
-                                            focusedBorder: UnderlineInputBorder(borderRadius: BorderRadius.circular(getHorizontalSize(5.43)), borderSide: BorderSide(color: ColorConstant.cyan400, width: 2.04)),
-                                            filled: true,
-                                            fillColor: ColorConstant.gray50,
-                                            isDense: true)
-                                    )
-                                )
-                            )
+                                               labelText: "msg_digite_seu_come".tr,
+                                               labelStyle: AppStyle.textStylePoppinsregular92.copyWith(
+                                                   fontSize: getFontSize(9.502008438110352),
+                                                   color: ColorConstant.bluegray800),
+                                               enabledBorder: UnderlineInputBorder(borderRadius: BorderRadius.circular(getHorizontalSize(5.43)), borderSide: BorderSide(color: ColorConstant.cyan400, width: 2.04)),
+                                               focusedBorder: UnderlineInputBorder(borderRadius: BorderRadius.circular(getHorizontalSize(5.43)), borderSide: BorderSide(color: ColorConstant.cyan400, width: 2.04)),
+                                               filled: true,
+                                               fillColor: ColorConstant.gray50,
+                                               isDense: true)
+                                       )
+                                   )
+                               ),
+                               Padding(
+                                   padding: EdgeInsets.only(
+                                       top: getVerticalSize(
+                                           22.00)),
+                                   child: Container(
+                                       height: getVerticalSize(50.00),
+                                       width: getHorizontalSize(70.51),
+                                       child: OutlinedButton(
+
+                                         onPressed: () { },
+                                         child: Text('Enviar'),
+                                       )
+
+                                   )
+                               )
+                             ],),
+                           )
                           ])
                   )
               )
