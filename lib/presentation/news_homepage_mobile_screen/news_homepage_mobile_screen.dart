@@ -442,8 +442,7 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                                                 10.86))),
                                                                     child: Card(
                                                                         clipBehavior:
-                                                                            Clip
-                                                                                .antiAlias,
+                                                                            Clip.antiAlias,
                                                                         elevation:
                                                                             0,
                                                                         margin:
@@ -482,8 +481,7 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                                                 10.86))),
                                                                     child: Card(
                                                                         clipBehavior:
-                                                                            Clip
-                                                                                .antiAlias,
+                                                                            Clip.antiAlias,
                                                                         elevation:
                                                                             0,
                                                                         margin:
@@ -570,13 +568,10 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                                             ])),
                                                                     Container(
                                                                         margin: EdgeInsets.only(
-                                                                            left: getHorizontalSize(
-                                                                                8.55),
-                                                                            top: getVerticalSize(
-                                                                                1.06)),
+                                                                            left: getHorizontalSize(8.55),
+                                                                            top: getVerticalSize(1.06)),
                                                                         decoration: BoxDecoration(
-                                                                            color: ColorConstant
-                                                                                .yellow700,
+                                                                            color: ColorConstant.yellow700,
                                                                             borderRadius: BorderRadius.circular(getHorizontalSize(
                                                                                 10.86))),
                                                                         child: Row(
