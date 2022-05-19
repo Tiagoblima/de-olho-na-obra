@@ -1,3 +1,5 @@
+
+
 plugins{
     id 'com.android.application'
     id 'kotlin-android'
@@ -39,7 +41,7 @@ android {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.dono.app"
         minSdkVersion 21
-        targetSdkVersion 31 
+        targetSdkVersion 32
         multiDexEnabled true
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

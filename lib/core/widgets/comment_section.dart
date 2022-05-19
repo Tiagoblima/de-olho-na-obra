@@ -381,14 +381,18 @@ class CommentSection extends StatelessWidget{
                                    padding: EdgeInsets.only(
                                        top: getVerticalSize(
                                            22.00)),
-                                   child: Container(
-                                       height: getVerticalSize(50.00),
-                                       width: getHorizontalSize(70.51),
-                                       child: OutlinedButton(
+                                   child: Padding(padding: EdgeInsets.only(
+                                       left: getHorizontalSize(
+                                           10.00)),
+                                     child: Container(
+                                         height: getVerticalSize(50.00),
+                                         width: getHorizontalSize(70.51),
+                                         child: OutlinedButton(
 
-                                         onPressed: () { },
-                                         child: Text('Enviar'),
-                                       )
+                                           onPressed: () { },
+                                           child: Text('Enviar'),
+                                         )
+                                   )
 
                                    )
                                )

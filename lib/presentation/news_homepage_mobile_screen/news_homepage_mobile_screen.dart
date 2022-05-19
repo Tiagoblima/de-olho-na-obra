@@ -238,17 +238,60 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                                   ]))
                                                         ]))
                                               ]))),
-                                  Padding(
-                                      padding: EdgeInsets.only(
-                                          left: getHorizontalSize(15.00),
-                                          top: getVerticalSize(33.00),
-                                          right: getHorizontalSize(15.00)),
-                                      child: Container(
-                                          height: getVerticalSize(35.00),
-                                          width: getHorizontalSize(340.00),
-                                          child: SvgPicture.asset(
-                                              ImageConstant.imgSearcharea,
-                                              fit: BoxFit.fill))),
+                                          Align(
+                                            alignment: Alignment.center,
+                                            child: Padding(padding: EdgeInsets.only(
+                                                left: getVerticalSize(
+                                                    20.00)),
+                                              child: Row(
+
+                                                children: [
+                                                  Padding(
+                                                      padding: EdgeInsets.only(
+                                                          top: getVerticalSize(
+                                                              22.00)),
+                                                      child: Container(
+                                                          height: getVerticalSize(50.00),
+                                                          width: getHorizontalSize(250.51),
+                                                          child: TextFormField(
+
+                                                              decoration: InputDecoration(
+
+                                                                  labelText: "busque sua cidade".tr,
+                                                                  labelStyle: AppStyle.textStylePoppinsregular92.copyWith(
+                                                                      fontSize: getFontSize(20),
+                                                                      color: ColorConstant.bluegray800),
+                                                                  enabledBorder: UnderlineInputBorder(borderRadius: BorderRadius.circular(getHorizontalSize(5.43)), borderSide: BorderSide(color: ColorConstant.cyan400, width: 2.04)),
+                                                                  focusedBorder: UnderlineInputBorder(borderRadius: BorderRadius.circular(getHorizontalSize(5.43)), borderSide: BorderSide(color: ColorConstant.cyan400, width: 2.04)),
+                                                                  filled: true,
+                                                                  fillColor: ColorConstant.gray50,
+                                                                  isDense: true)
+                                                          )
+                                                      )
+                                                  ),
+                                                  Padding(
+                                                      padding: EdgeInsets.only(
+                                                          top: getVerticalSize(
+                                                              22.00)),
+                                                      child: Padding(padding: EdgeInsets.only(
+                                                          left: getHorizontalSize(
+                                                              10.00)),
+                                                          child: Container(
+                                                              height: getVerticalSize(50.00),
+                                                              width: getHorizontalSize(70.51),
+                                                              child: OutlinedButton(
+
+                                                                onPressed: () { },
+                                                                child: Text('Enviar'),
+                                                              )
+                                                          )
+
+                                                      )
+                                                  )
+                                                ],),
+                                              
+                                            )
+                                          ),
                                   Padding(
                                       padding: EdgeInsets.only(
                                           left: getHorizontalSize(8.00),
@@ -290,11 +333,9 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                         mainAxisSize:
                                                             MainAxisSize.min,
                                                         crossAxisAlignment:
-                                                            CrossAxisAlignment
-                                                                .start,
+                                                            CrossAxisAlignment.start,
                                                         mainAxisAlignment:
-                                                            MainAxisAlignment
-                                                                .start,
+                                                            MainAxisAlignment.start,
                                                         children: [
                                                           Row(
                                                               mainAxisAlignment:
@@ -330,11 +371,9 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                                         margin:
                                                                             EdgeInsets.all(
                                                                                 0),
-                                                                        color: ColorConstant
-                                                                            .blue100,
+                                                                        color: ColorConstant.blue100,
                                                                         shape: RoundedRectangleBorder(
-                                                                            borderRadius: BorderRadius.circular(getHorizontalSize(
-                                                                                10.86))),
+                                                                            borderRadius: BorderRadius.circular(getHorizontalSize(10.86))),
                                                                         child: Stack(
                                                                             alignment:
                                                                                 Alignment.center,
