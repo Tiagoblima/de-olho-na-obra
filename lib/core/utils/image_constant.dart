@@ -1,6 +1,6 @@
 class ImageConstant {
   static String imgGroupitem = 'assets/images/img_groupitem.svg';
-
+  static String googleLogo = 'assets/images/google_logo.png';
   static String imgUnion = 'assets/images/img_union.png';
 
   static String imgTime1573491 = 'assets/images/img_time1573491.svg';

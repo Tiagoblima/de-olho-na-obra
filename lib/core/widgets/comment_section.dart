@@ -5,6 +5,7 @@ import 'package:dono/core/app_export.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 
 class FavoriteWidget extends StatefulWidget {
@@ -65,8 +66,16 @@ class CommentInputWidget extends StatefulWidget {
   @override
   State<CommentInputWidget> createState() => _CommentInputWidgetState();
 }
+class LoginController extends GetxController {
+  var _googleSigning = GoogleSignIn();
+  var googleAccount = Rx<GoogleSignInAccount?>(null);
 
+  void login() async {
+    googleAccount.value = await _googleSigning.signIn();
+  }
+}
 class _CommentInputWidgetState extends State<CommentInputWidget> {
+
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -106,7 +115,22 @@ class CommentSection extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-
+    final controller = Get.put(LoginController());
+    FloatingActionButton buildLoginButton() {
+      return FloatingActionButton.extended(
+        onPressed: () {
+          controller.login();
+        },
+        icon: Image.asset(
+          ImageConstant.googleLogo,
+          height: 32,
+          width: 32,
+        ),
+        label: const Text('Login com o Google'),
+        backgroundColor: Colors.white,
+        foregroundColor: Colors.black,
+      );
+    }
     return    Padding(
         padding: EdgeInsets.only(
             left: getHorizontalSize(15.00),
@@ -339,14 +363,10 @@ class CommentSection extends StatelessWidget{
                                     },
                                     child: Padding(
                                         padding: EdgeInsets.only(
-                                            left: getHorizontalSize(107.50),
+                                            left: getHorizontalSize(50.50),
                                             top: getVerticalSize(25.95),
-                                            right: getHorizontalSize(107.50)),
-                                        child: Container(
-                                            height: getVerticalSize(48.50),
-                                            width: getHorizontalSize(48.50),
-                                            child: SvgPicture.asset(ImageConstant.imgSiginbutton, fit: BoxFit.fill)
-                                        )
+                                            right: getHorizontalSize(50.50)),
+                                        child: buildLoginButton()
                                     )
                                 )
                             ),
