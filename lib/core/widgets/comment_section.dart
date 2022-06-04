@@ -131,6 +131,19 @@ class CommentSection extends StatelessWidget{
         foregroundColor: Colors.black,
       );
     }
+    Column buildProfileView() {
+      return Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          CircleAvatar(
+            backgroundImage: Image.network(controller.googleAccount.value?.photoUrl ?? '').image,
+            radius: 100,
+          ),
+          Text(controller.googleAccount.value?.displayName ?? 'Username'),
+          Text(controller.googleAccount.value?.email ?? 'email'),
+        ],
+      );
+    }
     return    Padding(
         padding: EdgeInsets.only(
             left: getHorizontalSize(15.00),
@@ -366,7 +379,13 @@ class CommentSection extends StatelessWidget{
                                             left: getHorizontalSize(50.50),
                                             top: getVerticalSize(25.95),
                                             right: getHorizontalSize(50.50)),
-                                        child: buildLoginButton()
+                                        child: Obx(() {
+                                          if (controller.googleAccount.value == null) {
+                                            return buildLoginButton();
+                                          } else {
+                                            return buildProfileView();
+                                          }
+                                        })
                                     )
                                 )
                             ),
