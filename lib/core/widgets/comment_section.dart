@@ -137,10 +137,61 @@ class CommentSection extends StatelessWidget {
             backgroundImage:
                 Image.network(controller.googleAccount.value?.photoUrl ?? '')
                     .image,
-            radius: 100,
+            radius: 50,
           ),
           Text(controller.googleAccount.value?.displayName ?? 'Username'),
           Text(controller.googleAccount.value?.email ?? 'email'),
+          Align(
+            alignment: Alignment.center,
+            child: Column(
+              children: [
+                Padding(
+                    padding: EdgeInsets.only(
+                        top: getVerticalSize(12.00)),
+                    child: Container(
+                        height: getVerticalSize(100.00),
+                        width: getHorizontalSize(250.51),
+                        child: TextFormField(
+                            minLines: 5,
+                            maxLines: 5,
+                            keyboardType: TextInputType.multiline,
+                            decoration: InputDecoration(
+                                labelText:
+                                "msg_digite_seu_come".tr,
+                                labelStyle: AppStyle
+                                    .textStylePoppinsregular92
+                                    .copyWith(
+                                    fontSize: getFontSize(
+                                        9.502008438110352),
+                                    color: ColorConstant
+                                        .bluegray800),
+                                border: OutlineInputBorder(
+
+                                    borderRadius: BorderRadius.all(Radius.circular(10)),
+                                ),
+                                focusedBorder: UnderlineInputBorder(borderRadius:
+                                BorderRadius.circular(getHorizontalSize(5.43)), borderSide: BorderSide(color: ColorConstant.cyan400, width: 2.04)),
+                                filled: true,
+                                fillColor: ColorConstant.gray50,
+                                isDense: true))
+                    )
+                ),
+                Padding(
+                    padding: EdgeInsets.only(
+                        top: getVerticalSize(22.00)),
+                    child: Padding(
+                        padding: EdgeInsets.only(
+                            left: getHorizontalSize(10.00)),
+                        child: Container(
+                            height: getVerticalSize(50.00),
+                            width: getHorizontalSize(70.51),
+                            child: ElevatedButton(
+                              onPressed: () {},
+                              child: Text('Enviar'),
+                            ))))
+              ],
+            ),
+          )
         ],
       );
     }
@@ -222,7 +273,7 @@ class CommentSection extends StatelessWidget {
                                       Align(
                                           alignment: Alignment.center,
                                           child: Container(
-                                              height: getVerticalSize(200.00),
+                                              height: getVerticalSize(100.00),
                                               width: getHorizontalSize(300.00),
                                               child: SvgPicture.asset(
                                                   ImageConstant.imgCommentarea,
@@ -249,24 +300,13 @@ class CommentSection extends StatelessWidget {
                                         CrossAxisAlignment.start,
                                     mainAxisAlignment: MainAxisAlignment.start,
                                     children: [
-                                      Padding(
-                                          padding: EdgeInsets.only(
-                                              left: getHorizontalSize(2.00),
-                                              right: getHorizontalSize(10.00)),
-                                          child: Text("Sem Título".tr,
-                                              overflow: TextOverflow.ellipsis,
-                                              textAlign: TextAlign.left,
-                                              style: AppStyle
-                                                  .textStyleIBMPlexSerifsemibold15
-                                                  .copyWith(
-                                                      fontSize: getFontSize(15),
-                                                      height: 1.80))),
+
                                       Container(
                                           width: getHorizontalSize(263.00),
                                           margin: EdgeInsets.only(
                                               left: getHorizontalSize(6.00),
-                                              top: getVerticalSize(31.65)),
-                                          child: Text("".tr,
+                                              top: getVerticalSize(50.65)),
+                                          child: Text("Olá, gostei muito da plataforma!".tr,
                                               maxLines: null,
                                               textAlign: TextAlign.left,
                                               style: AppStyle
@@ -277,22 +317,20 @@ class CommentSection extends StatelessWidget {
                                       Padding(
                                           padding: EdgeInsets.only(
                                               top: getVerticalSize(31.24),
-                                              right: getHorizontalSize(10.00)),
-                                          child: Obx(() {
-                                            return Text(
-                                                controller.googleAccount.value
-                                                        ?.displayName ??
-                                                    'autor',
-                                                overflow: TextOverflow.ellipsis,
-                                                textAlign: TextAlign.left,
-                                                style: AppStyle
-                                                    .textStylePoppinsregular101
-                                                    .copyWith(
-                                                        fontSize:
-                                                            getFontSize(10)));
-                                          })),
+                                              left: getHorizontalSize(5.00)),
+                                          child: Text(
+                                             'Pessoa 1'.tr,
+                                              overflow: TextOverflow.ellipsis,
+                                              textAlign: TextAlign.left,
+                                              style: AppStyle
+                                                  .textStylePoppinsregular101
+                                                  .copyWith(
+                                                  fontSize:
+                                                  getFontSize(10)))
+                                      ),
                                       Align(
                                           alignment: Alignment.center,
+
                                           child: Padding(
                                               padding: EdgeInsets.only(
                                                   left:
@@ -301,6 +339,7 @@ class CommentSection extends StatelessWidget {
                                                   right:
                                                       getHorizontalSize(41.07)),
                                               child: Row(
+
                                                   mainAxisAlignment:
                                                       MainAxisAlignment.start,
                                                   crossAxisAlignment:
@@ -453,52 +492,7 @@ class CommentSection extends StatelessWidget {
                                             return buildProfileView();
                                           }
                                         })))),
-                            Align(
-                              alignment: Alignment.center,
-                              child: Row(
-                                children: [
-                                  Padding(
-                                      padding: EdgeInsets.only(
-                                          top: getVerticalSize(22.00)),
-                                      child: Container(
-                                          height: getVerticalSize(50.00),
-                                          width: getHorizontalSize(250.51),
-                                          child: TextFormField(
-                                              decoration: InputDecoration(
-                                                  labelText:
-                                                      "msg_digite_seu_come".tr,
-                                                  labelStyle: AppStyle
-                                                      .textStylePoppinsregular92
-                                                      .copyWith(
-                                                          fontSize: getFontSize(
-                                                              9.502008438110352),
-                                                          color: ColorConstant
-                                                              .bluegray800),
-                                                  enabledBorder: UnderlineInputBorder(
-                                                      borderRadius:
-                                                          BorderRadius.circular(
-                                                              getHorizontalSize(5.43)),
-                                                      borderSide: BorderSide(color: ColorConstant.cyan400, width: 2.04)),
-                                                  focusedBorder: UnderlineInputBorder(borderRadius: BorderRadius.circular(getHorizontalSize(5.43)), borderSide: BorderSide(color: ColorConstant.cyan400, width: 2.04)),
-                                                  filled: true,
-                                                  fillColor: ColorConstant.gray50,
-                                                  isDense: true)))),
-                                  Padding(
-                                      padding: EdgeInsets.only(
-                                          top: getVerticalSize(22.00)),
-                                      child: Padding(
-                                          padding: EdgeInsets.only(
-                                              left: getHorizontalSize(10.00)),
-                                          child: Container(
-                                              height: getVerticalSize(50.00),
-                                              width: getHorizontalSize(70.51),
-                                              child: OutlinedButton(
-                                                onPressed: () {},
-                                                child: Text('Enviar'),
-                                              ))))
-                                ],
-                              ),
-                            )
+
                           ])))
             ]));
   }
