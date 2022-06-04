@@ -303,16 +303,27 @@ class CommentSection extends StatelessWidget{
                                           Padding(
                                               padding:
                                               EdgeInsets.only(left: getHorizontalSize(2.00), right: getHorizontalSize(10.00)),
-                                              child: Text("msg_t_tulo_do_comen".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStyleIBMPlexSerifsemibold15.copyWith(fontSize: getFontSize(15), height: 1.80))),
+                                              child: Text("Sem Título".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStyleIBMPlexSerifsemibold15.copyWith(fontSize: getFontSize(15), height: 1.80))),
                                           Container(
                                               width:
                                               getHorizontalSize(263.00),
                                               margin: EdgeInsets.only(left: getHorizontalSize(6.00), top: getVerticalSize(31.65)),
-                                              child: Text("msg_aqui_vai_um_com".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.textStyleNunitoSansregular10.copyWith(fontSize: getFontSize(10), height: 2.20))),
+                                              child: Text("".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.textStyleNunitoSansregular10.copyWith(fontSize: getFontSize(10), height: 2.20))),
                                           Padding(
                                               padding:
                                               EdgeInsets.only(top: getVerticalSize(31.24), right: getHorizontalSize(10.00)),
-                                              child: Text("msg_por_jos_da_si".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.textStylePoppinsregular101.copyWith(fontSize: getFontSize(10)))),
+                                              child: Obx((){
+                                                return Text(controller.googleAccount.value?.displayName ?? 'autor',
+                                                    overflow: TextOverflow.ellipsis,
+                                                    textAlign: TextAlign.left,
+                                                    style: AppStyle.textStylePoppinsregular101.copyWith(fontSize: getFontSize(10)
+                                                )
+                                                );
+                                              }
+
+                                              )
+
+                                          ),
                                           Align(
                                               alignment:
                                               Alignment.center,
