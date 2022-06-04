@@ -221,16 +221,21 @@ class ArticleDetailsMobileScreen
                                                                   margin: EdgeInsets.only(
                                                                       left: getHorizontalSize(
                                                                           16.91)),
-                                                                  child: Text("msg_em_olinda_dren".tr,
-                                                                      maxLines: null,
-                                                                      textAlign: TextAlign.left,
-                                                                      style: AppStyle.textStyleIBMPlexSerifsemibold24.copyWith(fontSize: getFontSize(24))))
+                                                                  child: Text(
+                                                                      "msg_em_olinda_dren"
+                                                                          .tr,
+                                                                      maxLines:
+                                                                          null,
+                                                                      textAlign:
+                                                                          TextAlign
+                                                                              .left,
+                                                                      style: AppStyle
+                                                                          .textStyleIBMPlexSerifsemibold24
+                                                                          .copyWith(
+                                                                              fontSize: getFontSize(24))))
                                                             ]))),
-
                                               ]))),
-                                          InfoSection(),
-
-
+                                  InfoSection(),
                                   Padding(
                                       padding: EdgeInsets.only(
                                           top: getVerticalSize(74.00)),
@@ -275,20 +280,34 @@ class ArticleDetailsMobileScreen
                                                       Padding(
                                                           padding: EdgeInsets.only(
                                                               left:
-                                                                  getHorizontalSize(13.19),
+                                                                  getHorizontalSize(
+                                                                      13.19),
                                                               top:
-                                                                  getVerticalSize(18.40),
+                                                                  getVerticalSize(
+                                                                      18.40),
                                                               bottom:
-                                                                  getVerticalSize(5.87)),
+                                                                  getVerticalSize(
+                                                                      5.87)),
                                                           child: Image.asset(
-                                                              ImageConstant.imgNewsimage,
-                                                              height: getVerticalSize(113.78),
-                                                              width: getHorizontalSize(134.58),
-                                                              fit: BoxFit.fill)),
+                                                              ImageConstant
+                                                                  .imgNewsimage,
+                                                              height:
+                                                                  getVerticalSize(
+                                                                      113.78),
+                                                              width:
+                                                                  getHorizontalSize(
+                                                                      134.58),
+                                                              fit:
+                                                                  BoxFit.fill)),
                                                       Column(
-                                                          mainAxisSize: MainAxisSize.min,
-                                                          crossAxisAlignment: CrossAxisAlignment.start,
-                                                          mainAxisAlignment: MainAxisAlignment.start,
+                                                          mainAxisSize:
+                                                              MainAxisSize.min,
+                                                          crossAxisAlignment:
+                                                              CrossAxisAlignment
+                                                                  .start,
+                                                          mainAxisAlignment:
+                                                              MainAxisAlignment
+                                                                  .start,
                                                           children: [
                                                             Align(
                                                                 alignment:
@@ -396,17 +415,17 @@ class ArticleDetailsMobileScreen
                                                                             style: AppStyle.textStyleIBMPlexSerif14.copyWith(fontSize: getFontSize(14), height: 3.00)))),
                                                                 Container(
                                                                     height:
-                                                                    getVerticalSize(
-                                                                        1.00),
+                                                                        getVerticalSize(
+                                                                            1.00),
                                                                     width: getHorizontalSize(
                                                                         270.51),
                                                                     margin: EdgeInsets.only(
                                                                         bottom: getVerticalSize(
                                                                             10.00)),
                                                                     decoration:
-                                                                    BoxDecoration(
-                                                                        color:
-                                                                        ColorConstant.blue700))
+                                                                        BoxDecoration(
+                                                                            color:
+                                                                                ColorConstant.blue700))
                                                               ])),
                                                       Container(
                                                           height:
@@ -442,8 +461,6 @@ class ArticleDetailsMobileScreen
                                   Container(
                                       alignment: Alignment.center,
                                       child: CommentSection(),
-
-
                                       margin: EdgeInsets.only(
                                           top: getVerticalSize(92.98),
                                           right: getHorizontalSize(4.00)),

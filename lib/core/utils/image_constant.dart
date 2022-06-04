@@ -25,7 +25,6 @@ class ImageConstant {
 
   static String imgIconfillcheck = 'assets/images/img_iconfillcheck.svg';
 
-
   static String imgRectangle37 = 'assets/images/img_rectangle37.svg';
 
   static String imgGroupitem3 = 'assets/images/img_groupitem_3.svg';
@@ -147,8 +146,6 @@ class ImageConstant {
   static String imgGroup2881 = 'assets/images/img_group288_1.svg';
 
   static String imgVector9 = 'assets/images/img_vector_9.svg';
-
-
 
   static String imgIconfillplus1 = 'assets/images/img_iconfillplus_1.svg';
 

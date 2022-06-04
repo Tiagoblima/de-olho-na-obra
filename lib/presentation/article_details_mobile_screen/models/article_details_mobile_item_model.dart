@@ -1,5 +1,1 @@
-class ArticleDetailsMobileItemModel {
-
-
-
-}
+class ArticleDetailsMobileItemModel {}
