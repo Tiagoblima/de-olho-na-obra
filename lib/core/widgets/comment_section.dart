@@ -120,6 +120,7 @@ class CommentSection extends StatelessWidget{
       return FloatingActionButton.extended(
         onPressed: () {
           controller.login();
+
         },
         icon: Image.asset(
           ImageConstant.googleLogo,
