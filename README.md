@@ -24,17 +24,6 @@ https://pub.dev/packages/shared_preferences
 6. cached_network_image - For storing internet image into cache
 https://pub.dev/packages/cached_network_image
 
-## Code - Formatting
-- if your code is not formatted then run following command in your terminal to format code
-```dart
-dart format .
-```
-
-
-## Figma design guideline for better accuracy
-
-Read our guidelines to increase the accuracy of design conversion to code by optimizing Figma designs.
-https://docs.dhiwise.com/knowledgehub/reference-guide-and-tools/figma
 
 ## App Navigation
 
@@ -61,4 +50,13 @@ Check your app's UI from the AppNavigation screen of your app.
 ├── routes                      - contains all the routes of application
 └── theme                       - contains app theme and decoration classes
 ```
+## Code - Formatting
+- if your code is not formatted then run following command in your terminal to format code
+```dart
+dart format .
+```
 
+
+### Figma design guideline
+
+generated with the help of [DhiWise](https://docs.dhiwise.com/knowledgehub/reference-guide-and-tools/figma)

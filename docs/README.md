@@ -13,19 +13,23 @@
 Objetivos e Funcionalidades Principais 
 O objetivo principal do projeto é o desenvolvimento de uma plataforma que seja capaz de fornecer ao cidadão comum informações sobre os contratos de obras públicas no estado de Pernambuco de maneira fácil e simples. Sendo assim, as funcionalidades principais são:
 
-Listagem das Obras no estado de Pernambuco 
-Filtro por localidade, ex.: Cidade, Natureza, tempo.
-Detalhe sobre as Obras
-Data 
-Local
-Empresa: Contrato, Nome, CNPJ e outras informações relacionadas
-Valor Gasto
-Notícias Relacionadas
-Interações do Usuários
-Comentários sobre as obras
-Likes
-Páginas Adicionas
-Sobre
-Sobre transparência
+- Listagem das Obras no estado de Pernambuco 
+- Filtro por localidade, ex.: Cidade, Natureza, tempo.
+- Detalhe sobre as Obras
+   - Data 
+   - Local
+   - Empresa: Contrato, Nome, CNPJ e outras informações relacionadas
+   - Valor Gasto
+   - Notícias Relacionada
+   
+- Interações do Usuários
+   - Comentários sobre as obras
+   - Likes
+   - salvar
+   - compartilhar
+   
+- Páginas Adicionas
+  - Home
+  - Detalhes
 
 Outras funcionalidades podem ser adicionadas ao longo do projeto caso haja tempo hábil.
