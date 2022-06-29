@@ -13,7 +13,8 @@ variables.env
 .atom/
 .buildlog/
 .svn/
-
+*.pem
+*.der
 pubspec.lock
 # IntelliJ related
 *.iml
