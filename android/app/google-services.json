@@ -1,41 +1,49 @@
 {
   "project_info": {
-    "project_number": "658267839058",
-    "project_id": "fir-sample-e0d19",
-    "storage_bucket": "fir-sample-e0d19.appspot.com"
+    "project_number": "1063777150421",
+    "project_id": "fir-sample-a0ea6",
+    "storage_bucket": "fir-sample-a0ea6.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:658267839058:android:430fa38b16f3fb26ef9d8b",
+        "mobilesdk_app_id": "1:1063777150421:android:3a28fa52fcf5bed676495c",
         "android_client_info": {
           "package_name": "com.dono.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "658267839058-j744rcst8m6obhgmnvo51k6caivi42k2.apps.googleusercontent.com",
+          "client_id": "1063777150421-48g5vu5ov4791fg21pk6mn9bu9na3dd9.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.dono.app",
-            "certificate_hash": "ecb12d60c013713585a4d580658b0bfbc2237dab"
+            "certificate_hash": "47fefa934d7c649e32db6f91142433e7ddd343a6"
           }
         },
         {
-          "client_id": "658267839058-15jqgeg7b6ivb2g3q0a5on5l89vsg6hf.apps.googleusercontent.com",
+          "client_id": "1063777150421-nd4a61jkppa4tek71hr0o42qf27a1nt4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dono.app",
+            "certificate_hash": "02e2723ebc24f0cf475067f09e71b6aac1de1a4f"
+          }
+        },
+        {
+          "client_id": "1063777150421-1t6hf7pv2pao0ap895tauree5a65uv2m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB1-RnJ8m-bFdlSjcjGqtbT0IxB5uBlK8U"
+          "current_key": "AIzaSyCeFpYdKX__TFs65RMUBJgDAew3soLwO8Q"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "658267839058-15jqgeg7b6ivb2g3q0a5on5l89vsg6hf.apps.googleusercontent.com",
+              "client_id": "1063777150421-1t6hf7pv2pao0ap895tauree5a65uv2m.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -44,35 +52,27 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:658267839058:android:b81547b0f035343fef9d8b",
+        "mobilesdk_app_id": "1:1063777150421:android:93f54aae0b097e6876495c",
         "android_client_info": {
           "package_name": "com.example.firebase_sample"
         }
       },
       "oauth_client": [
         {
-          "client_id": "658267839058-43t2chcdgssijp2iu93s4r9a1roqjv39.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.firebase_sample",
-            "certificate_hash": "ecb12d60c013713585a4d580658b0bfbc2237dab"
-          }
-        },
-        {
-          "client_id": "658267839058-15jqgeg7b6ivb2g3q0a5on5l89vsg6hf.apps.googleusercontent.com",
+          "client_id": "1063777150421-1t6hf7pv2pao0ap895tauree5a65uv2m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB1-RnJ8m-bFdlSjcjGqtbT0IxB5uBlK8U"
+          "current_key": "AIzaSyCeFpYdKX__TFs65RMUBJgDAew3soLwO8Q"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "658267839058-15jqgeg7b6ivb2g3q0a5on5l89vsg6hf.apps.googleusercontent.com",
+              "client_id": "1063777150421-1t6hf7pv2pao0ap895tauree5a65uv2m.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
