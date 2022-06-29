@@ -676,7 +676,12 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                           Align(
                                                               alignment: Alignment
                                                                   .centerRight,
-                                                              child: Container(
+                                                              child: GestureDetector(
+                                                                            onTap:
+                                                                                () {
+                                                                              onTapTxtEmolindadren();
+                                                                            },
+                                                                            child:  Container(
                                                                   width:
                                                                       getHorizontalSize(
                                                                           303.69),
@@ -700,15 +705,13 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                                           MainAxisAlignment
                                                                               .start,
                                                                       children: [
-                                                                        GestureDetector(
-                                                                            onTap:
-                                                                                () {
-                                                                              onTapTxtEmolindadren();
-                                                                            },
-                                                                            child: Container(
+                                                                        
+                                                                                Container(
                                                                                 width: getHorizontalSize(303.26),
                                                                                 margin: EdgeInsets.only(right: getHorizontalSize(0.43)),
-                                                                                child: Text("msg_em_olinda_dren".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.textStyleIBMPlexSerifsemibold15.copyWith(fontSize: getFontSize(15), height: 1.80)))),
+                                                                                child: Text("msg_em_olinda_dren".tr, maxLines: null, textAlign: TextAlign.left, style: AppStyle.textStyleIBMPlexSerifsemibold15.copyWith(fontSize: getFontSize(15), height: 1.80)
+                                                                                   )
+                                                                                  ),
                                                                         Container(
                                                                             width:
                                                                                 getHorizontalSize(302.96),
@@ -741,7 +744,9 @@ class NewsHomepageMobileScreen extends GetWidget<NewsHomepageMobileController> {
                                                                               Padding(padding: EdgeInsets.only(left: getHorizontalSize(16.59), top: getVerticalSize(3.17), bottom: getVerticalSize(4.83)), child: Container(height: getSize(16.00), width: getSize(16.00), child: SvgPicture.asset(ImageConstant.imgGroupitem, fit: BoxFit.fill))),
                                                                               Padding(padding: EdgeInsets.only(left: getHorizontalSize(17.00), top: getVerticalSize(3.00), bottom: getVerticalSize(5.00)), child: Container(height: getSize(16.00), width: getSize(16.00), child: SvgPicture.asset(ImageConstant.imgGroupitem1, fit: BoxFit.fill)))
                                                                             ]))
-                                                                      ])))
+                                                                      ]))
+                                                                                ),
+                                                             )
                                                         ]))),
                                             Padding(
                                                 padding: EdgeInsets.only(
