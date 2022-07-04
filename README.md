@@ -15,6 +15,7 @@
  
  **Apresentação PPTX:** https://docs.google.com/presentation/d/16GwrhvilpVgA86SDuKvwJbCBgW_SFTlhnXFpaftNDO8/edit?usp=sharing
  
+ **Playstore:** https://play.google.com/store/apps/details?id=com.dono.app
  
 Objetivos e Funcionalidades Principais 
 O objetivo principal do projeto é o desenvolvimento de uma plataforma que seja capaz de fornecer ao cidadão comum informações sobre os contratos de obras públicas no estado de Pernambuco de maneira fácil e simples. Sendo assim, as funcionalidades principais são:
