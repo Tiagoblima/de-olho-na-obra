@@ -14,11 +14,14 @@
 
 **Protótipo Web Figma:** https://www.figma.com/file/Yj5lYKoZHH7ualBRGaRj9t/Prototipo-Inovacao?node-id=4%3A2 
  
- **Apresentação YouTube:** https://www.youtube.com/watch?v=Jqkm2FAtKJw&ab_channel=TiagodeLima
- 
  **Apresentação PPTX:** https://docs.google.com/presentation/d/16GwrhvilpVgA86SDuKvwJbCBgW_SFTlhnXFpaftNDO8/edit?usp=sharing
  
+ **Vídeo da Apresentação:** https://www.youtube.com/watch?v=-gdPjojn4II
+ 
  **Playstore:** https://play.google.com/store/apps/details?id=com.dono.app
+ 
+  **Demo:** https://www.youtube.com/watch?v=Jqkm2FAtKJw&ab_channel=TiagodeLima
+  
  
 Objetivos e Funcionalidades Principais 
 O objetivo principal do projeto é o desenvolvimento de uma plataforma que seja capaz de fornecer ao cidadão comum informações sobre os contratos de obras públicas no estado de Pernambuco de maneira fácil e simples. Sendo assim, as funcionalidades principais são:
