@@ -3,8 +3,11 @@
 ## Propostas dos Projetos
 
 **Título:** Aplicativo para Monitoramento de Gastos Públicos
+
 **Nome do Aluno:** Tiago Barbosa de Lima
+
 **Descrição (Objetivos e Funcionalidades Principais):**
+
 **Orientador(es):** Ricardo Souza
 
 **Artigo Base:** Aplicação do Design Centrado em Humano para o desenvolvimento de uma solução para dar transparência nos gastos em obras públicas 
