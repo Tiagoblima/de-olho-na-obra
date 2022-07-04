@@ -9,14 +9,11 @@
 
 **Artigo Base:** Aplicação do Design Centrado em Humano para o desenvolvimento de uma solução para dar transparência nos gastos em obras públicas 
 
-**Protótipo Web Figma:**
- https://www.figma.com/file/Yj5lYKoZHH7ualBRGaRj9t/Prototipo-Inovacao?node-id=4%3A2 
+**Protótipo Web Figma:** https://www.figma.com/file/Yj5lYKoZHH7ualBRGaRj9t/Prototipo-Inovacao?node-id=4%3A2 
  
- **Apresentação YouTube:**
- https://www.youtube.com/watch?v=Jqkm2FAtKJw&ab_channel=TiagodeLima
+ **Apresentação YouTube:** https://www.youtube.com/watch?v=Jqkm2FAtKJw&ab_channel=TiagodeLima
  
- **Apresentação PPTX:**
- https://docs.google.com/presentation/d/16GwrhvilpVgA86SDuKvwJbCBgW_SFTlhnXFpaftNDO8/edit?usp=sharing
+ **Apresentação PPTX:** https://docs.google.com/presentation/d/16GwrhvilpVgA86SDuKvwJbCBgW_SFTlhnXFpaftNDO8/edit?usp=sharing
  
  
 Objetivos e Funcionalidades Principais 
