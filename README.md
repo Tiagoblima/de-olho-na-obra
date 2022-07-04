@@ -6,8 +6,6 @@
 
 **Nome do Aluno:** Tiago Barbosa de Lima
 
-**Descrição (Objetivos e Funcionalidades Principais):**
-
 **Orientador(es):** Ricardo Souza
 
 **Artigo Base:** Aplicação do Design Centrado em Humano para o desenvolvimento de uma solução para dar transparência nos gastos em obras públicas 
@@ -20,11 +18,9 @@
  
  **Playstore:** https://play.google.com/store/apps/details?id=com.dono.app
  
-  **Demo:** https://www.youtube.com/watch?v=Jqkm2FAtKJw&ab_channel=TiagodeLima
+ **Demo:** https://www.youtube.com/watch?v=Jqkm2FAtKJw&ab_channel=TiagodeLima
   
- 
-Objetivos e Funcionalidades Principais 
-O objetivo principal do projeto é o desenvolvimento de uma plataforma que seja capaz de fornecer ao cidadão comum informações sobre os contratos de obras públicas no estado de Pernambuco de maneira fácil e simples. Sendo assim, as funcionalidades principais são:
+**Descrição (Objetivos e Funcionalidades Principais):** O objetivo principal do projeto é o desenvolvimento de uma plataforma que seja capaz de fornecer ao cidadão comum informações sobre os contratos de obras públicas no estado de Pernambuco de maneira fácil e simples. Sendo assim, as funcionalidades principais são:
 
 - Listagem das Obras no estado de Pernambuco 
 - Filtro por localidade, ex.: Cidade, Natureza, tempo.
